@@ -77,6 +77,5 @@ public class NseStockInfoDataDrivenTest extends BaseStockTest {
             test.get().fail("Test Calculate profit or loss for stock: " + expected.getStockName() + " failed - " + e.getMessage());
             throw e;
         }
-
     }
 }

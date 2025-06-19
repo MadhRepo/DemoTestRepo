@@ -19,8 +19,6 @@ import utils.StockInfoReader;
 import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Method;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -113,25 +111,28 @@ public abstract class BaseStockTest {
         testcaseId.remove();
     }
 
-
+    // JDK 11 compatible screenshot method using FileUtils
     protected void takeScreenshot(String testCase, String stockName, String phase) {
         try {
             WebDriver webDriver = driver.get();
             if (webDriver == null) return;
             File srcFile = ((TakesScreenshot) webDriver).getScreenshotAs(OutputType.FILE);
             String dir = "screenshots";
-            Files.createDirectories(Paths.get(dir));
+            File dirFile = new File(dir);
+            if (!dirFile.exists()) {
+                dirFile.mkdirs();
+            }
             String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
             String browser = browserName.get() == null ? "NA" : browserName.get();
-            String fileName = String.format("%s/%s_%s_%s_%s_%s.png",
-                    dir,
+            String fileName = String.format("%s_%s_%s_%s_%s.png",
                     browser,
                     testCase,
                     stockName == null ? "NA" : stockName,
                     phase,
                     timestamp
             );
-            Files.copy(srcFile.toPath(), Paths.get(fileName));
+            File destFile = new File(dirFile, fileName);
+            FileUtils.copyFile(srcFile, destFile);
         } catch (IOException | WebDriverException e) {
             // Log or handle as needed
         }

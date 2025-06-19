@@ -5,9 +5,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import java.time.Duration;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.Keys;
+
 public class Nifty50Page {
     private WebDriver driver;
     private WebDriverWait wait;
@@ -17,7 +17,8 @@ public class Nifty50Page {
 
     public Nifty50Page(WebDriver driver) {
         this.driver = driver;
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+        // Use seconds as int for compatibility
+        this.wait = new WebDriverWait(driver, 15);
     }
 
     public void searchStock(String stockName) {
@@ -28,7 +29,7 @@ public class Nifty50Page {
         // Wait for dropdown to appear (max 5s)
         By dropdownLocator = By.xpath("//a[contains(@id,'async-navbar-search-item')][.//span[@class='rt' and text()='" + stockName.toUpperCase() + "']]");
         try {
-            WebDriverWait shortWait = new WebDriverWait(driver, Duration.ofSeconds(5));
+            WebDriverWait shortWait = new WebDriverWait(driver, 5);
             shortWait.until(ExpectedConditions.visibilityOfElementLocated(dropdownLocator));
             WebElement dropdownItem = wait.until(ExpectedConditions.elementToBeClickable(dropdownLocator));
             dropdownItem.click();
@@ -58,5 +59,4 @@ public class Nifty50Page {
             // Ignore screenshot errors
         }
     }
-
 }
