@@ -1,0 +1,1728 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jun 19, 2025 07:51:23 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">01 [CHROME] - Verify Stock Information Display: TATAMOTORS</p>
+            <p class="text-sm">
+              <span>19:51:29</span> / <span>00:00:23:725</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">01 [CHROME] - Verify Stock Information Display: TATAMOTORS</h5>
+<span class='badge badge-success'>06.19.2025 19:51:29</span>
+<span class='badge badge-danger'>06.19.2025 19:51:53</span>
+<span class='badge badge-default'>00:00:23:725</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:51:53</td>
+        <td>
+          expected stockName : TATAMOTORS,actual stockName : TATAMOTORS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:51:53</td>
+        <td>
+          expected stockFullName : TATA MOTORS LIMITED (INE155A01022),actual stockFullName : TATA MOTORS LIMITED (INE155A01022)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:51:53</td>
+        <td>
+          expected stockCurrentPrice : 671.40,actual stockCurrentPrice : 671.40
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:51:53</td>
+        <td>
+          Test search for stock information: TATAMOTORS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:51:53</td>
+        <td>
+          Test 52 Week High and Low prices for stock: TATAMOTORS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>19:51:53</td>
+        <td>
+          52 Week High price: 1,179.00, 52 Week Low price: 535.75
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>19:51:53</td>
+        <td>
+          Buy Price: 671.4, Current Price: 671.4, Profit/Loss: 0.0
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>19:51:53</td>
+        <td>
+          No profit or loss for stock: TATAMOTORS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:51:53</td>
+        <td>
+          Test Calculate profit or loss for stock: TATAMOTORS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:51:53</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">01 [EDGE] - Verify Stock Information Display: TATAMOTORS</p>
+            <p class="text-sm">
+              <span>19:51:31</span> / <span>00:00:21:954</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">01 [EDGE] - Verify Stock Information Display: TATAMOTORS</h5>
+<span class='badge badge-success'>06.19.2025 19:51:31</span>
+<span class='badge badge-danger'>06.19.2025 19:51:52</span>
+<span class='badge badge-default'>00:00:21:954</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:51:52</td>
+        <td>
+          expected stockName : TATAMOTORS,actual stockName : TATAMOTORS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:51:52</td>
+        <td>
+          expected stockFullName : TATA MOTORS LIMITED (INE155A01022),actual stockFullName : TATA MOTORS LIMITED (INE155A01022)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:51:52</td>
+        <td>
+          expected stockCurrentPrice : 671.40,actual stockCurrentPrice : 671.40
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:51:52</td>
+        <td>
+          Test search for stock information: TATAMOTORS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:51:52</td>
+        <td>
+          Test 52 Week High and Low prices for stock: TATAMOTORS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>19:51:52</td>
+        <td>
+          52 Week High price: 1,179.00, 52 Week Low price: 535.75
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>19:51:52</td>
+        <td>
+          Buy Price: 671.4, Current Price: 671.4, Profit/Loss: 0.0
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>19:51:52</td>
+        <td>
+          No profit or loss for stock: TATAMOTORS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:51:52</td>
+        <td>
+          Test Calculate profit or loss for stock: TATAMOTORS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:51:52</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">01 [FIREFOX] - Verify Stock Information Display: TATAMOTORS</p>
+            <p class="text-sm">
+              <span>19:51:33</span> / <span>00:00:37:499</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">01 [FIREFOX] - Verify Stock Information Display: TATAMOTORS</h5>
+<span class='badge badge-success'>06.19.2025 19:51:33</span>
+<span class='badge badge-danger'>06.19.2025 19:52:10</span>
+<span class='badge badge-default'>00:00:37:499</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>19:52:10</td>
+        <td>
+          Test failed: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a[data-nse-translate-symbol='TATAMOTORS'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:33302, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4972, moz:profile: C:\Users\jpasi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:33302/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: a8634c32-bf1e-461b-8df9-83b61223b448
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">02 [CHROME] - Verify Stock Information Display: RCOM</p>
+            <p class="text-sm">
+              <span>19:51:56</span> / <span>00:00:25:235</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">02 [CHROME] - Verify Stock Information Display: RCOM</h5>
+<span class='badge badge-success'>06.19.2025 19:51:56</span>
+<span class='badge badge-danger'>06.19.2025 19:52:21</span>
+<span class='badge badge-default'>00:00:25:235</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:52:21</td>
+        <td>
+          expected stockName : RCOM,actual stockName : RCOM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:52:21</td>
+        <td>
+          expected stockFullName : RELIANCE COMMUNICATIONS LIMITED (INE330H01018),actual stockFullName : RELIANCE COMMUNICATIONS LIMITED (INE330H01018)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:52:21</td>
+        <td>
+          expected stockCurrentPrice : -,actual stockCurrentPrice : -
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:52:21</td>
+        <td>
+          Test search for stock information: RCOM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:52:21</td>
+        <td>
+          Test 52 Week High and Low prices for stock: RCOM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>19:52:21</td>
+        <td>
+          52 Week High price: 2.58, 52 Week Low price: 1.34
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>19:52:21</td>
+        <td>
+          Test Calculate profit or loss for stock: RCOM failed - For input string: "-"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>19:52:21</td>
+        <td>
+          Test failed: java.lang.NumberFormatException: For input string: "-"
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">02 [EDGE] - Verify Stock Information Display: RCOM</p>
+            <p class="text-sm">
+              <span>19:51:59</span> / <span>00:00:22:338</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">02 [EDGE] - Verify Stock Information Display: RCOM</h5>
+<span class='badge badge-success'>06.19.2025 19:51:59</span>
+<span class='badge badge-danger'>06.19.2025 19:52:21</span>
+<span class='badge badge-default'>00:00:22:338</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:52:21</td>
+        <td>
+          expected stockName : RCOM,actual stockName : RCOM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:52:21</td>
+        <td>
+          expected stockFullName : RELIANCE COMMUNICATIONS LIMITED (INE330H01018),actual stockFullName : RELIANCE COMMUNICATIONS LIMITED (INE330H01018)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:52:21</td>
+        <td>
+          expected stockCurrentPrice : -,actual stockCurrentPrice : -
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:52:21</td>
+        <td>
+          Test search for stock information: RCOM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:52:21</td>
+        <td>
+          Test 52 Week High and Low prices for stock: RCOM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>19:52:21</td>
+        <td>
+          52 Week High price: 2.58, 52 Week Low price: 1.34
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>19:52:21</td>
+        <td>
+          Test Calculate profit or loss for stock: RCOM failed - For input string: "-"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>19:52:21</td>
+        <td>
+          Test failed: java.lang.NumberFormatException: For input string: "-"
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">02 [FIREFOX] - Verify Stock Information Display: RCOM</p>
+            <p class="text-sm">
+              <span>19:52:18</span> / <span>00:00:21:744</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">02 [FIREFOX] - Verify Stock Information Display: RCOM</h5>
+<span class='badge badge-success'>06.19.2025 19:52:18</span>
+<span class='badge badge-danger'>06.19.2025 19:52:39</span>
+<span class='badge badge-default'>00:00:21:744</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:52:39</td>
+        <td>
+          expected stockName : RCOM,actual stockName : RCOM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:52:39</td>
+        <td>
+          expected stockFullName : RELIANCE COMMUNICATIONS LIMITED (INE330H01018),actual stockFullName : RELIANCE COMMUNICATIONS LIMITED (INE330H01018)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:52:39</td>
+        <td>
+          expected stockCurrentPrice : -,actual stockCurrentPrice : -
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:52:39</td>
+        <td>
+          Test search for stock information: RCOM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:52:39</td>
+        <td>
+          Test 52 Week High and Low prices for stock: RCOM
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>19:52:39</td>
+        <td>
+          52 Week High price: 2.58, 52 Week Low price: 1.34
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>19:52:39</td>
+        <td>
+          Test Calculate profit or loss for stock: RCOM failed - For input string: "-"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>19:52:39</td>
+        <td>
+          Test failed: java.lang.NumberFormatException: For input string: "-"
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">03 [CHROME] - Verify Stock Information Display: RELIANCE</p>
+            <p class="text-sm">
+              <span>19:52:27</span> / <span>00:00:22:864</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">03 [CHROME] - Verify Stock Information Display: RELIANCE</h5>
+<span class='badge badge-success'>06.19.2025 19:52:27</span>
+<span class='badge badge-danger'>06.19.2025 19:52:50</span>
+<span class='badge badge-default'>00:00:22:864</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:52:49</td>
+        <td>
+          expected stockName : RELIANCE,actual stockName : RELIANCE
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:52:49</td>
+        <td>
+          expected stockFullName : RELIANCE INDUSTRIES LIMITED (INE002A01018),actual stockFullName : RELIANCE INDUSTRIES LIMITED (INE002A01018)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:52:49</td>
+        <td>
+          expected stockCurrentPrice : 1,428.00,actual stockCurrentPrice : 1,428.00
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:52:49</td>
+        <td>
+          Test search for stock information: RELIANCE
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:52:50</td>
+        <td>
+          Test 52 Week High and Low prices for stock: RELIANCE
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>19:52:50</td>
+        <td>
+          52 Week High price: 1,608.80, 52 Week Low price: 1,114.85
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>19:52:50</td>
+        <td>
+          Buy Price: 1428.0, Current Price: 1428.0, Profit/Loss: 0.0
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>19:52:50</td>
+        <td>
+          No profit or loss for stock: RELIANCE
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:52:50</td>
+        <td>
+          Test Calculate profit or loss for stock: RELIANCE
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:52:50</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">03 [EDGE] - Verify Stock Information Display: RELIANCE</p>
+            <p class="text-sm">
+              <span>19:52:30</span> / <span>00:00:22:674</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">03 [EDGE] - Verify Stock Information Display: RELIANCE</h5>
+<span class='badge badge-success'>06.19.2025 19:52:30</span>
+<span class='badge badge-danger'>06.19.2025 19:52:52</span>
+<span class='badge badge-default'>00:00:22:674</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:52:52</td>
+        <td>
+          expected stockName : RELIANCE,actual stockName : RELIANCE
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:52:52</td>
+        <td>
+          expected stockFullName : RELIANCE INDUSTRIES LIMITED (INE002A01018),actual stockFullName : RELIANCE INDUSTRIES LIMITED (INE002A01018)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:52:52</td>
+        <td>
+          expected stockCurrentPrice : 1,428.00,actual stockCurrentPrice : 1,428.00
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:52:52</td>
+        <td>
+          Test search for stock information: RELIANCE
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:52:52</td>
+        <td>
+          Test 52 Week High and Low prices for stock: RELIANCE
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>19:52:52</td>
+        <td>
+          52 Week High price: 1,608.80, 52 Week Low price: 1,114.85
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>19:52:52</td>
+        <td>
+          Buy Price: 1428.0, Current Price: 1428.0, Profit/Loss: 0.0
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>19:52:52</td>
+        <td>
+          No profit or loss for stock: RELIANCE
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:52:52</td>
+        <td>
+          Test Calculate profit or loss for stock: RELIANCE
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:52:52</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">03 [FIREFOX] - Verify Stock Information Display: RELIANCE</p>
+            <p class="text-sm">
+              <span>19:52:46</span> / <span>00:00:36:976</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">03 [FIREFOX] - Verify Stock Information Display: RELIANCE</h5>
+<span class='badge badge-success'>06.19.2025 19:52:46</span>
+<span class='badge badge-danger'>06.19.2025 19:53:23</span>
+<span class='badge badge-default'>00:00:36:976</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>19:53:23</td>
+        <td>
+          Test failed: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a[data-nse-translate-symbol='RELIANCE'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:46189, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 27284, moz:profile: C:\Users\jpasi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:46189/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 42cadc37-2c97-4b4d-a806-18fbdef7227f
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">04 [CHROME] - Verify Stock Information Display: HDFCBANK</p>
+            <p class="text-sm">
+              <span>19:52:54</span> / <span>00:00:22:073</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">04 [CHROME] - Verify Stock Information Display: HDFCBANK</h5>
+<span class='badge badge-success'>06.19.2025 19:52:54</span>
+<span class='badge badge-danger'>06.19.2025 19:53:16</span>
+<span class='badge badge-default'>00:00:22:073</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:16</td>
+        <td>
+          expected stockName : HDFCBANK,actual stockName : HDFCBANK
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:16</td>
+        <td>
+          expected stockFullName : HDFC BANK LIMITED (INE040A01034),actual stockFullName : HDFC BANK LIMITED (INE040A01034)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:16</td>
+        <td>
+          expected stockCurrentPrice : 1,933.10,actual stockCurrentPrice : 1,933.10
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:16</td>
+        <td>
+          Test search for stock information: HDFCBANK
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:16</td>
+        <td>
+          Test 52 Week High and Low prices for stock: HDFCBANK
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>19:53:16</td>
+        <td>
+          52 Week High price: 1,996.30, 52 Week Low price: 1,588.05
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>19:53:16</td>
+        <td>
+          Buy Price: 1933.1, Current Price: 1933.1, Profit/Loss: 0.0
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>19:53:16</td>
+        <td>
+          No profit or loss for stock: HDFCBANK
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:16</td>
+        <td>
+          Test Calculate profit or loss for stock: HDFCBANK
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:16</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">04 [EDGE] - Verify Stock Information Display: HDFCBANK</p>
+            <p class="text-sm">
+              <span>19:52:59</span> / <span>00:00:22:828</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">04 [EDGE] - Verify Stock Information Display: HDFCBANK</h5>
+<span class='badge badge-success'>06.19.2025 19:52:59</span>
+<span class='badge badge-danger'>06.19.2025 19:53:22</span>
+<span class='badge badge-default'>00:00:22:828</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:22</td>
+        <td>
+          expected stockName : HDFCBANK,actual stockName : HDFCBANK
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:22</td>
+        <td>
+          expected stockFullName : HDFC BANK LIMITED (INE040A01034),actual stockFullName : HDFC BANK LIMITED (INE040A01034)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:22</td>
+        <td>
+          expected stockCurrentPrice : 1,933.10,actual stockCurrentPrice : 1,933.10
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:22</td>
+        <td>
+          Test search for stock information: HDFCBANK
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:22</td>
+        <td>
+          Test 52 Week High and Low prices for stock: HDFCBANK
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>19:53:22</td>
+        <td>
+          52 Week High price: 1,996.30, 52 Week Low price: 1,588.05
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>19:53:22</td>
+        <td>
+          Buy Price: 1933.1, Current Price: 1933.1, Profit/Loss: 0.0
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>19:53:22</td>
+        <td>
+          No profit or loss for stock: HDFCBANK
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:22</td>
+        <td>
+          Test Calculate profit or loss for stock: HDFCBANK
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:22</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">05 [CHROME] - Verify Stock Information Display: INFY</p>
+            <p class="text-sm">
+              <span>19:53:20</span> / <span>00:00:22:224</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">05 [CHROME] - Verify Stock Information Display: INFY</h5>
+<span class='badge badge-success'>06.19.2025 19:53:20</span>
+<span class='badge badge-danger'>06.19.2025 19:53:42</span>
+<span class='badge badge-default'>00:00:22:224</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:42</td>
+        <td>
+          expected stockName : INFY,actual stockName : INFY
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:42</td>
+        <td>
+          expected stockFullName : INFOSYS LIMITED (INE009A01021),actual stockFullName : INFOSYS LIMITED (INE009A01021)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:42</td>
+        <td>
+          expected stockCurrentPrice : 1,616.90,actual stockCurrentPrice : 1,616.90
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:42</td>
+        <td>
+          Test search for stock information: INFY
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:42</td>
+        <td>
+          Test 52 Week High and Low prices for stock: INFY
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>19:53:42</td>
+        <td>
+          52 Week High price: 2,006.45, 52 Week Low price: 1,307.00
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>19:53:42</td>
+        <td>
+          Buy Price: 1616.9, Current Price: 1616.9, Profit/Loss: 0.0
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>19:53:42</td>
+        <td>
+          No profit or loss for stock: INFY
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:42</td>
+        <td>
+          Test Calculate profit or loss for stock: INFY
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:42</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="13"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">05 [EDGE] - Verify Stock Information Display: INFY</p>
+            <p class="text-sm">
+              <span>19:53:29</span> / <span>00:00:23:023</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">05 [EDGE] - Verify Stock Information Display: INFY</h5>
+<span class='badge badge-success'>06.19.2025 19:53:29</span>
+<span class='badge badge-danger'>06.19.2025 19:53:52</span>
+<span class='badge badge-default'>00:00:23:023</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:52</td>
+        <td>
+          expected stockName : INFY,actual stockName : INFY
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:52</td>
+        <td>
+          expected stockFullName : INFOSYS LIMITED (INE009A01021),actual stockFullName : INFOSYS LIMITED (INE009A01021)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:52</td>
+        <td>
+          expected stockCurrentPrice : 1,616.90,actual stockCurrentPrice : 1,616.90
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:52</td>
+        <td>
+          Test search for stock information: INFY
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:52</td>
+        <td>
+          Test 52 Week High and Low prices for stock: INFY
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>19:53:52</td>
+        <td>
+          52 Week High price: 2,006.45, 52 Week Low price: 1,307.00
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>19:53:52</td>
+        <td>
+          Buy Price: 1616.9, Current Price: 1616.9, Profit/Loss: 0.0
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>19:53:52</td>
+        <td>
+          No profit or loss for stock: INFY
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:52</td>
+        <td>
+          Test Calculate profit or loss for stock: INFY
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:52</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">04 [FIREFOX] - Verify Stock Information Display: HDFCBANK</p>
+            <p class="text-sm">
+              <span>19:53:33</span> / <span>00:00:21:219</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">04 [FIREFOX] - Verify Stock Information Display: HDFCBANK</h5>
+<span class='badge badge-success'>06.19.2025 19:53:33</span>
+<span class='badge badge-danger'>06.19.2025 19:53:54</span>
+<span class='badge badge-default'>00:00:21:219</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:54</td>
+        <td>
+          expected stockName : HDFCBANK,actual stockName : HDFCBANK
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:54</td>
+        <td>
+          expected stockFullName : HDFC BANK LIMITED (INE040A01034),actual stockFullName : HDFC BANK LIMITED (INE040A01034)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:54</td>
+        <td>
+          expected stockCurrentPrice : 1,933.10,actual stockCurrentPrice : 1,933.10
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:54</td>
+        <td>
+          Test search for stock information: HDFCBANK
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:54</td>
+        <td>
+          Test 52 Week High and Low prices for stock: HDFCBANK
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>19:53:54</td>
+        <td>
+          52 Week High price: 1,996.30, 52 Week Low price: 1,588.05
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>19:53:54</td>
+        <td>
+          Buy Price: 1933.1, Current Price: 1933.1, Profit/Loss: 0.0
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>19:53:54</td>
+        <td>
+          No profit or loss for stock: HDFCBANK
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:54</td>
+        <td>
+          Test Calculate profit or loss for stock: HDFCBANK
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:53:54</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="15"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">06 [CHROME] - Verify Stock Information Display: INVALID</p>
+            <p class="text-sm">
+              <span>19:53:46</span> / <span>00:00:39:897</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">06 [CHROME] - Verify Stock Information Display: INVALID</h5>
+<span class='badge badge-success'>06.19.2025 19:53:46</span>
+<span class='badge badge-danger'>06.19.2025 19:54:26</span>
+<span class='badge badge-default'>00:00:39:897</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>19:54:26</td>
+        <td>
+          Test failed: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a[data-nse-translate-symbol='INVALID'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.119, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\jpasi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:18523}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:18523/devtoo..., se:cdpVersion: 137.0.7151.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f0c8b404b58a75c05e6a65df2127af18
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="16"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">06 [EDGE] - Verify Stock Information Display: INVALID</p>
+            <p class="text-sm">
+              <span>19:53:59</span> / <span>00:00:38:837</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">06 [EDGE] - Verify Stock Information Display: INVALID</h5>
+<span class='badge badge-success'>06.19.2025 19:53:59</span>
+<span class='badge badge-danger'>06.19.2025 19:54:38</span>
+<span class='badge badge-default'>00:00:38:837</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>19:54:38</td>
+        <td>
+          Test failed: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a[data-nse-translate-symbol='INVALID'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:18661}, msedge: {msedgedriverVersion: 137.0.3296.83 (24e00e9cccf2..., userDataDir: C:\Users\jpasi\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:18661/devtoo..., se:cdpVersion: 137.0.3296.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 182afead7123feecf1f06fecf3246bdd
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">05 [FIREFOX] - Verify Stock Information Display: INFY</p>
+            <p class="text-sm">
+              <span>19:54:02</span> / <span>00:00:25:812</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">05 [FIREFOX] - Verify Stock Information Display: INFY</h5>
+<span class='badge badge-success'>06.19.2025 19:54:02</span>
+<span class='badge badge-danger'>06.19.2025 19:54:28</span>
+<span class='badge badge-default'>00:00:25:812</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:54:28</td>
+        <td>
+          expected stockName : INFY,actual stockName : INFY
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:54:28</td>
+        <td>
+          expected stockFullName : INFOSYS LIMITED (INE009A01021),actual stockFullName : INFOSYS LIMITED (INE009A01021)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:54:28</td>
+        <td>
+          expected stockCurrentPrice : 1,616.90,actual stockCurrentPrice : 1,616.90
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:54:28</td>
+        <td>
+          Test search for stock information: INFY
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:54:28</td>
+        <td>
+          Test 52 Week High and Low prices for stock: INFY
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>19:54:28</td>
+        <td>
+          52 Week High price: 2,006.45, 52 Week Low price: 1,307.00
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>19:54:28</td>
+        <td>
+          Buy Price: 1616.9, Current Price: 1616.9, Profit/Loss: 0.0
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>19:54:28</td>
+        <td>
+          No profit or loss for stock: INFY
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:54:28</td>
+        <td>
+          Test Calculate profit or loss for stock: INFY
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>19:54:28</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="18"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">06 [FIREFOX] - Verify Stock Information Display: INVALID</p>
+            <p class="text-sm">
+              <span>19:54:33</span> / <span>00:00:36:823</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">06 [FIREFOX] - Verify Stock Information Display: INVALID</h5>
+<span class='badge badge-success'>06.19.2025 19:54:33</span>
+<span class='badge badge-danger'>06.19.2025 19:55:10</span>
+<span class='badge badge-default'>00:00:36:823</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>19:55:10</td>
+        <td>
+          Test failed: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a[data-nse-translate-symbol='INVALID'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:33942, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20012, moz:profile: C:\Users\jpasi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:33942/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: bdcda724-2df1-4aef-ada5-4f67b04e1d8a
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jun 19, 2025 07:51:23 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jun 19, 2025 07:55:11 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>10</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>8</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='55%'>
+<b>10</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='44%'><b>8</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='65%'><b>85</b> events passed</small></div>
+<div>
+<small data-tooltip='8%'><b>11</b> events failed,
+<b data-tooltip='%'>33</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"01 [CHROME] - Verify Stock Information Display: TATAMOTORS":23.725,"01 [EDGE] - Verify Stock Information Display: TATAMOTORS":21.954,"01 [FIREFOX] - Verify Stock Information Display: TATAMOTORS":37.499,"02 [CHROME] - Verify Stock Information Display: RCOM":25.235,"02 [EDGE] - Verify Stock Information Display: RCOM":22.338,"02 [FIREFOX] - Verify Stock Information Display: RCOM":21.744,"03 [CHROME] - Verify Stock Information Display: RELIANCE":22.864,"03 [EDGE] - Verify Stock Information Display: RELIANCE":22.674,"03 [FIREFOX] - Verify Stock Information Display: RELIANCE":36.976,"04 [CHROME] - Verify Stock Information Display: HDFCBANK":22.073,"04 [EDGE] - Verify Stock Information Display: HDFCBANK":22.828,"05 [CHROME] - Verify Stock Information Display: INFY":22.224,"05 [EDGE] - Verify Stock Information Display: INFY":23.023,"04 [FIREFOX] - Verify Stock Information Display: HDFCBANK":21.219,"06 [CHROME] - Verify Stock Information Display: INVALID":39.897,"06 [EDGE] - Verify Stock Information Display: INVALID":38.837,"05 [FIREFOX] - Verify Stock Information Display: INFY":25.812,"06 [FIREFOX] - Verify Stock Information Display: INVALID":36.823
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 10,
+failParent: 8,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 85,
+failEvents: 11,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 33
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
