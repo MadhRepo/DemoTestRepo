@@ -22,7 +22,6 @@ import java.lang.reflect.Method;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.atomic.AtomicInteger;
-
 public abstract class BaseStockTest {
     protected static final Logger logger = LogManager.getLogger(BaseStockTest.class);
 

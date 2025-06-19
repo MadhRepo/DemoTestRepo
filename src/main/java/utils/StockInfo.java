@@ -14,7 +14,6 @@ public class StockInfo {
         this.buyingPrice = buyingPrice;
         this.currentPrice = currentPrice;
     }
-
     public String getTestcaseId() { return testcaseId; }
 
     public String getStockName() {

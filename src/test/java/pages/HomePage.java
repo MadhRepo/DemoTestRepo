@@ -6,6 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
+
 public class HomePage {
     private WebDriver driver;
     private WebDriverWait wait;
@@ -16,7 +18,7 @@ public class HomePage {
     public HomePage(WebDriver driver) {
         this.driver = driver;
         // Use seconds as long for JDK 11/Selenium 3 compatibility
-        this.wait = new WebDriverWait(driver, 15);
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(15));
     }
 
     public void acceptCookiesIfPresent() {
