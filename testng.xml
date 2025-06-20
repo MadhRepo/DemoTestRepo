@@ -4,9 +4,6 @@
         <parameter name="browser" value="chrome"/>
         <classes>
 <!--            <class name="com.myproject.tests.ParallelBrowserTest"/>-->
-<!--            <class name="com.myproject.tests.NseIndiaNavigationTest"/>-->
-<!--            <class name="com.myproject.tests.NseStock52WeekTest"/>-->
-<!--            <class name="com.myproject.tests.NseNifty50SearchTest"/>-->
             <class name="tests.NseStockInfoDataDrivenTest"/>
         </classes>
     </test>
