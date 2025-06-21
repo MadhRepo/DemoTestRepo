@@ -10,6 +10,7 @@ import org.openqa.selenium.*;
 import org.apache.commons.io.FileUtils;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
+import org.testng.annotations.AfterSuite;
 
 import pages.HomePage;
 import pages.Nifty50Page;
@@ -173,4 +174,5 @@ public abstract class BaseStockTest {
         }
         return "NA";
     }
+
 }
