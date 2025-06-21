@@ -2,9 +2,15 @@ package tests;
 
 import com.aventstack.extentreports.ExtentTest;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import utils.StockInfo;
+
+import java.time.Duration;
+
 public class NseStockInfoDataDrivenTest extends BaseStockTest {
 
     @Test(dataProvider = "stockData")
@@ -22,21 +28,36 @@ public class NseStockInfoDataDrivenTest extends BaseStockTest {
             String currentUrl = driver.get().getCurrentUrl();
             Assert.assertTrue(currentUrl.contains(expectedStockUrl), "Stock search failed for: " + expected.getStockName());
 
-            String actualStockName = driver.get().findElement(By.cssSelector("a[data-nse-translate-symbol='" + expected.getStockName().toUpperCase() + "']")).getText();
+            String stockSelector = "a[data-nse-translate-symbol='" + expected.getStockName().toUpperCase() + "']";
+
+            WebElement stockElement = new WebDriverWait(driver.get(), Duration.ofSeconds(10))
+                    .until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(stockSelector)));
+
+            String actualStockName = stockElement.getText();
             String actualStockFullName = driver.get().findElement(By.cssSelector("#quoteName")).getText();
             String actualStockCurrentPrice = driver.get().findElement(By.cssSelector("span#quoteLtp")).getText();
 
             Assert.assertEquals(actualStockName, expected.getStockName(), "Stock name mismatch");
+            test.get().pass("expected stockName: " + expected.getStockName() + ", actual stockName: " + actualStockName);
             Assert.assertEquals(actualStockFullName, expected.getStockFullName(), "Stock full name mismatch");
-            Assert.assertEquals(actualStockCurrentPrice, expected.getCurrentPrice(), "Current price mismatch");
+            test.get().pass("expected stockFullName: " + expected.getStockFullName() + ", actual stockFullName: " + actualStockFullName);
 
-            test.get().pass("expected stockName : " + expected.getStockName() + "," + "actual stockName : " + actualStockName);
-            test.get().pass("expected stockFullName : " + expected.getStockFullName() + "," + "actual stockFullName : " + actualStockFullName);
-            test.get().pass("expected stockCurrentPrice : " + expected.getCurrentPrice() + "," + "actual stockCurrentPrice : " + actualStockCurrentPrice);
-            test.get().pass("Test search for stock information: " + expected.getStockName());
-        } catch (Exception e) {
+            double tolerance = 2.00;
+            double expectedPrice = Double.parseDouble(expected.getCurrentPrice());
+            double actualPrice = Double.parseDouble(actualStockCurrentPrice);
+            if (Math.abs(expectedPrice - actualPrice) <= tolerance) {
+                test.get().pass("Expected stockCurrentPrice: " + expected.getCurrentPrice() +
+                        ", Actual stockCurrentPrice: " + actualStockCurrentPrice +
+                        ", match within tolerance: " + tolerance);
+            } else {
+                test.get().fail("Expected stockCurrentPrice: " + expected.getCurrentPrice() +
+                        ", Actual stockCurrentPrice: " + actualStockCurrentPrice +
+                        ", mismatch within tolerance: " + tolerance);
+                hasSoftFailure.set(true);
+            }
+        } catch (Throwable e) {
+            hasSoftFailure.set(true);
             test.get().fail("Test search for stock information: " + expected.getStockName() + " failed - " + e.getMessage());
-            throw e;
         }
 
         // Verify 52 Week High and Low prices
@@ -47,9 +68,9 @@ public class NseStockInfoDataDrivenTest extends BaseStockTest {
             Assert.assertNotNull(low, "52 Week Low should not be null");
             test.get().pass("Test 52 Week High and Low prices for stock: " + expected.getStockName());
             extentTest.info("52 Week High price: " + high + ", 52 Week Low price: " + low);
-        } catch (Exception e) {
+        } catch (Throwable e) {
+            hasSoftFailure.set(true);
             test.get().fail("Test 52 Week High and Low prices for stock: " + expected.getStockName() + " failed - " + e.getMessage());
-            throw e;
         }
 
         // Calculate profit or loss
@@ -72,9 +93,14 @@ public class NseStockInfoDataDrivenTest extends BaseStockTest {
             }
             Assert.assertFalse(Double.isNaN(profitOrLoss), "Profit/Loss should be a valid number");
             test.get().pass("Test Calculate profit or loss for stock: " + expected.getStockName());
-        } catch (Exception e) {
+        } catch (Throwable e) {
+            hasSoftFailure.set(true);
             test.get().fail("Test Calculate profit or loss for stock: " + expected.getStockName() + " failed - " + e.getMessage());
-            throw e;
+        }
+
+        // Final assertion to fail the test if any soft failure occurred
+        if (hasSoftFailure.get()) {
+            Assert.fail("One or more verifications failed. See above for details.");
         }
     }
 }

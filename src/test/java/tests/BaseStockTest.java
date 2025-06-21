@@ -33,7 +33,7 @@ public abstract class BaseStockTest {
     protected static final ThreadLocal<StockInfo> expectedStock = new ThreadLocal<>();
     protected static final ThreadLocal<String> testcaseId = new ThreadLocal<>();
     protected static final AtomicInteger tcCounter = new AtomicInteger(1);
-
+    protected static final ThreadLocal<Boolean> hasSoftFailure = ThreadLocal.withInitial(() -> false);
     protected static ExtentReports extent;
 
     @BeforeClass
@@ -59,7 +59,10 @@ public abstract class BaseStockTest {
         logger.info("Launching {} browser and navigating to NSE India", browser);
         WebDriver localDriver;
         if (browser.equalsIgnoreCase("firefox")) {
+
             WebDriverManager.firefoxdriver().setup();
+
+
             localDriver = new org.openqa.selenium.firefox.FirefoxDriver();
         } else if (browser.equalsIgnoreCase("edge")) {
             WebDriverManager.edgedriver().setup();
@@ -78,17 +81,18 @@ public abstract class BaseStockTest {
     }
 
     @AfterMethod(alwaysRun = true)
-    public void logTestResult(ITestResult result) {
+    public void logTestResult(org.testng.ITestResult result) {
         ExtentTest extentTest = test.get();
         if (extentTest != null) {
-            if (result.getStatus() == ITestResult.FAILURE) {
-                extentTest.fail("Test failed: " + result.getThrowable());
-            } else if (result.getStatus() == ITestResult.SKIP) {
+            if (result.getStatus() == org.testng.ITestResult.FAILURE || hasSoftFailure.get()) {
+                extentTest.fail("Test failed: " + (result.getThrowable() != null ? result.getThrowable() : "One or more verifications failed"));
+            } else if (result.getStatus() == org.testng.ITestResult.SKIP) {
                 extentTest.skip("Test skipped: " + result.getThrowable());
-            } else if (result.getStatus() == ITestResult.SUCCESS) {
+            } else if (result.getStatus() == org.testng.ITestResult.SUCCESS) {
                 extentTest.pass("Test passed");
             }
         }
+        hasSoftFailure.remove();
     }
 
     @AfterMethod

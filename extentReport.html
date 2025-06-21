@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jun 19, 2025 07:51:23 pm</span></a>
+<a href="#"><span class="badge badge-primary">Jun 21, 2025 06:37:57 pm</span></a>
 </li>
 </ul>
 </div>
@@ -66,7 +66,6 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
 <a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
@@ -75,25 +74,25 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="pass" test-id="1"
+        <li class="test-item"  status="fail" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">01 [CHROME] - Verify Stock Information Display: TATAMOTORS</p>
             <p class="text-sm">
-              <span>19:51:29</span> / <span>00:00:23:725</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>18:38:02</span> / <span>00:00:24:527</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">01 [CHROME] - Verify Stock Information Display: TATAMOTORS</h5>
-<span class='badge badge-success'>06.19.2025 19:51:29</span>
-<span class='badge badge-danger'>06.19.2025 19:51:53</span>
-<span class='badge badge-default'>00:00:23:725</span>
+<h5 class="test-status text-fail">01 [CHROME] - Verify Stock Information Display: TATAMOTORS</h5>
+<span class='badge badge-success'>06.21.2025 18:38:02</span>
+<span class='badge badge-danger'>06.21.2025 18:38:27</span>
+<span class='badge badge-default'>00:00:24:527</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -105,72 +104,65 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:51:53</td>
+        <td>18:38:27</td>
         <td>
-          expected stockName : TATAMOTORS,actual stockName : TATAMOTORS
+          expected stockName: TATAMOTORS, actual stockName: TATAMOTORS
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:51:53</td>
+        <td>18:38:27</td>
         <td>
-          expected stockFullName : TATA MOTORS LIMITED (INE155A01022),actual stockFullName : TATA MOTORS LIMITED (INE155A01022)
+          expected stockFullName: TATA MOTORS LIMITED (INE155A01022), actual stockFullName: TATA MOTORS LIMITED (INE155A01022)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>18:38:27</td>
+        <td>
+          Expected stockCurrentPrice: 686.50, Actual stockCurrentPrice: 675.50, mismatch within tolerance: 2.0
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:51:53</td>
-        <td>
-          expected stockCurrentPrice : 671.40,actual stockCurrentPrice : 671.40
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:51:53</td>
-        <td>
-          Test search for stock information: TATAMOTORS
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:51:53</td>
+        <td>18:38:27</td>
         <td>
           Test 52 Week High and Low prices for stock: TATAMOTORS
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>19:51:53</td>
+        <td>18:38:27</td>
         <td>
           52 Week High price: 1,179.00, 52 Week Low price: 535.75
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>19:51:53</td>
+        <td>18:38:27</td>
         <td>
-          Buy Price: 671.4, Current Price: 671.4, Profit/Loss: 0.0
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>19:51:53</td>
-        <td>
-          No profit or loss for stock: TATAMOTORS
+          Buy Price: 671.4, Current Price: 675.5, Profit/Loss: 4.100000000000023
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:51:53</td>
+        <td>18:38:27</td>
+        <td>
+          Profit of 4.100000000000023 for stock: TATAMOTORS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>18:38:27</td>
         <td>
           Test Calculate profit or loss for stock: TATAMOTORS
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:51:53</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>18:38:27</td>
         <td>
-          Test passed
+          Test failed: java.lang.AssertionError: One or more verifications failed. See above for details.
         </td>
       </tr>
   </tbody>
@@ -178,25 +170,25 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="2"
+        <li class="test-item"  status="fail" test-id="2"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">01 [EDGE] - Verify Stock Information Display: TATAMOTORS</p>
             <p class="text-sm">
-              <span>19:51:31</span> / <span>00:00:21:954</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>18:38:07</span> / <span>00:00:23:431</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">01 [EDGE] - Verify Stock Information Display: TATAMOTORS</h5>
-<span class='badge badge-success'>06.19.2025 19:51:31</span>
-<span class='badge badge-danger'>06.19.2025 19:51:52</span>
-<span class='badge badge-default'>00:00:21:954</span>
+<h5 class="test-status text-fail">01 [EDGE] - Verify Stock Information Display: TATAMOTORS</h5>
+<span class='badge badge-success'>06.21.2025 18:38:07</span>
+<span class='badge badge-danger'>06.21.2025 18:38:30</span>
+<span class='badge badge-default'>00:00:23:431</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -208,72 +200,65 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:51:52</td>
+        <td>18:38:30</td>
         <td>
-          expected stockName : TATAMOTORS,actual stockName : TATAMOTORS
+          expected stockName: TATAMOTORS, actual stockName: TATAMOTORS
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:51:52</td>
+        <td>18:38:30</td>
         <td>
-          expected stockFullName : TATA MOTORS LIMITED (INE155A01022),actual stockFullName : TATA MOTORS LIMITED (INE155A01022)
+          expected stockFullName: TATA MOTORS LIMITED (INE155A01022), actual stockFullName: TATA MOTORS LIMITED (INE155A01022)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>18:38:30</td>
+        <td>
+          Expected stockCurrentPrice: 686.50, Actual stockCurrentPrice: 675.50, mismatch within tolerance: 2.0
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:51:52</td>
-        <td>
-          expected stockCurrentPrice : 671.40,actual stockCurrentPrice : 671.40
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:51:52</td>
-        <td>
-          Test search for stock information: TATAMOTORS
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:51:52</td>
+        <td>18:38:30</td>
         <td>
           Test 52 Week High and Low prices for stock: TATAMOTORS
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>19:51:52</td>
+        <td>18:38:30</td>
         <td>
           52 Week High price: 1,179.00, 52 Week Low price: 535.75
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>19:51:52</td>
+        <td>18:38:30</td>
         <td>
-          Buy Price: 671.4, Current Price: 671.4, Profit/Loss: 0.0
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>19:51:52</td>
-        <td>
-          No profit or loss for stock: TATAMOTORS
+          Buy Price: 671.4, Current Price: 675.5, Profit/Loss: 4.100000000000023
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:51:52</td>
+        <td>18:38:30</td>
+        <td>
+          Profit of 4.100000000000023 for stock: TATAMOTORS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>18:38:30</td>
         <td>
           Test Calculate profit or loss for stock: TATAMOTORS
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:51:52</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>18:38:30</td>
         <td>
-          Test passed
+          Test failed: java.lang.AssertionError: One or more verifications failed. See above for details.
         </td>
       </tr>
   </tbody>
@@ -288,7 +273,7 @@
           <div class="test-detail">
             <p class="name">01 [FIREFOX] - Verify Stock Information Display: TATAMOTORS</p>
             <p class="text-sm">
-              <span>19:51:33</span> / <span>00:00:37:499</span>
+              <span>18:38:09</span> / <span>00:00:21:225</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -297,9 +282,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">01 [FIREFOX] - Verify Stock Information Display: TATAMOTORS</h5>
-<span class='badge badge-success'>06.19.2025 19:51:33</span>
-<span class='badge badge-danger'>06.19.2025 19:52:10</span>
-<span class='badge badge-default'>00:00:37:499</span>
+<span class='badge badge-success'>06.21.2025 18:38:09</span>
+<span class='badge badge-danger'>06.21.2025 18:38:30</span>
+<span class='badge badge-default'>00:00:21:225</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -310,15 +295,66 @@
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>19:52:10</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>18:38:30</td>
         <td>
-          Test failed: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a[data-nse-translate-symbol='TATAMOTORS'] (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:33302, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4972, moz:profile: C:\Users\jpasi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:33302/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: a8634c32-bf1e-461b-8df9-83b61223b448
+          expected stockName: TATAMOTORS, actual stockName: TATAMOTORS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>18:38:30</td>
+        <td>
+          expected stockFullName: TATA MOTORS LIMITED (INE155A01022), actual stockFullName: TATA MOTORS LIMITED (INE155A01022)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>18:38:30</td>
+        <td>
+          Expected stockCurrentPrice: 686.50, Actual stockCurrentPrice: 675.50, mismatch within tolerance: 2.0
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>18:38:30</td>
+        <td>
+          Test 52 Week High and Low prices for stock: TATAMOTORS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>18:38:30</td>
+        <td>
+          52 Week High price: 1,179.00, 52 Week Low price: 535.75
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>18:38:30</td>
+        <td>
+          Buy Price: 671.4, Current Price: 675.5, Profit/Loss: 4.100000000000023
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>18:38:30</td>
+        <td>
+          Profit of 4.100000000000023 for stock: TATAMOTORS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>18:38:30</td>
+        <td>
+          Test Calculate profit or loss for stock: TATAMOTORS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>18:38:30</td>
+        <td>
+          Test failed: java.lang.AssertionError: One or more verifications failed. See above for details.
         </td>
       </tr>
   </tbody>
@@ -333,7 +369,7 @@ Session ID: a8634c32-bf1e-461b-8df9-83b61223b448
           <div class="test-detail">
             <p class="name">02 [CHROME] - Verify Stock Information Display: RCOM</p>
             <p class="text-sm">
-              <span>19:51:56</span> / <span>00:00:25:235</span>
+              <span>18:38:33</span> / <span>00:00:23:805</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -342,9 +378,9 @@ Session ID: a8634c32-bf1e-461b-8df9-83b61223b448
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">02 [CHROME] - Verify Stock Information Display: RCOM</h5>
-<span class='badge badge-success'>06.19.2025 19:51:56</span>
-<span class='badge badge-danger'>06.19.2025 19:52:21</span>
-<span class='badge badge-default'>00:00:25:235</span>
+<span class='badge badge-success'>06.21.2025 18:38:33</span>
+<span class='badge badge-danger'>06.21.2025 18:38:56</span>
+<span class='badge badge-default'>00:00:23:805</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -356,58 +392,51 @@ Session ID: a8634c32-bf1e-461b-8df9-83b61223b448
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:52:21</td>
+        <td>18:38:56</td>
         <td>
-          expected stockName : RCOM,actual stockName : RCOM
+          expected stockName: RCOM, actual stockName: RCOM
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:52:21</td>
+        <td>18:38:56</td>
         <td>
-          expected stockFullName : RELIANCE COMMUNICATIONS LIMITED (INE330H01018),actual stockFullName : RELIANCE COMMUNICATIONS LIMITED (INE330H01018)
+          expected stockFullName: RELIANCE COMMUNICATIONS LIMITED (INE330H01018), actual stockFullName: RELIANCE COMMUNICATIONS LIMITED (INE330H01018)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>18:38:56</td>
+        <td>
+          Test search for stock information: RCOM failed - For input string: "-"
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:52:21</td>
-        <td>
-          expected stockCurrentPrice : -,actual stockCurrentPrice : -
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:52:21</td>
-        <td>
-          Test search for stock information: RCOM
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:52:21</td>
+        <td>18:38:56</td>
         <td>
           Test 52 Week High and Low prices for stock: RCOM
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>19:52:21</td>
+        <td>18:38:56</td>
         <td>
           52 Week High price: 2.58, 52 Week Low price: 1.34
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>19:52:21</td>
+        <td>18:38:56</td>
         <td>
           Test Calculate profit or loss for stock: RCOM failed - For input string: "-"
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>19:52:21</td>
+        <td>18:38:56</td>
         <td>
-          Test failed: java.lang.NumberFormatException: For input string: "-"
+          Test failed: java.lang.AssertionError: One or more verifications failed. See above for details.
         </td>
       </tr>
   </tbody>
@@ -422,7 +451,7 @@ Session ID: a8634c32-bf1e-461b-8df9-83b61223b448
           <div class="test-detail">
             <p class="name">02 [EDGE] - Verify Stock Information Display: RCOM</p>
             <p class="text-sm">
-              <span>19:51:59</span> / <span>00:00:22:338</span>
+              <span>18:38:37</span> / <span>00:00:23:191</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -431,9 +460,9 @@ Session ID: a8634c32-bf1e-461b-8df9-83b61223b448
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">02 [EDGE] - Verify Stock Information Display: RCOM</h5>
-<span class='badge badge-success'>06.19.2025 19:51:59</span>
-<span class='badge badge-danger'>06.19.2025 19:52:21</span>
-<span class='badge badge-default'>00:00:22:338</span>
+<span class='badge badge-success'>06.21.2025 18:38:37</span>
+<span class='badge badge-danger'>06.21.2025 18:39:00</span>
+<span class='badge badge-default'>00:00:23:191</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -445,58 +474,51 @@ Session ID: a8634c32-bf1e-461b-8df9-83b61223b448
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:52:21</td>
+        <td>18:39:00</td>
         <td>
-          expected stockName : RCOM,actual stockName : RCOM
+          expected stockName: RCOM, actual stockName: RCOM
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:52:21</td>
+        <td>18:39:00</td>
         <td>
-          expected stockFullName : RELIANCE COMMUNICATIONS LIMITED (INE330H01018),actual stockFullName : RELIANCE COMMUNICATIONS LIMITED (INE330H01018)
+          expected stockFullName: RELIANCE COMMUNICATIONS LIMITED (INE330H01018), actual stockFullName: RELIANCE COMMUNICATIONS LIMITED (INE330H01018)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>18:39:00</td>
+        <td>
+          Test search for stock information: RCOM failed - For input string: "-"
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:52:21</td>
-        <td>
-          expected stockCurrentPrice : -,actual stockCurrentPrice : -
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:52:21</td>
-        <td>
-          Test search for stock information: RCOM
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:52:21</td>
+        <td>18:39:00</td>
         <td>
           Test 52 Week High and Low prices for stock: RCOM
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>19:52:21</td>
+        <td>18:39:00</td>
         <td>
           52 Week High price: 2.58, 52 Week Low price: 1.34
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>19:52:21</td>
+        <td>18:39:00</td>
         <td>
           Test Calculate profit or loss for stock: RCOM failed - For input string: "-"
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>19:52:21</td>
+        <td>18:39:00</td>
         <td>
-          Test failed: java.lang.NumberFormatException: For input string: "-"
+          Test failed: java.lang.AssertionError: One or more verifications failed. See above for details.
         </td>
       </tr>
   </tbody>
@@ -511,7 +533,7 @@ Session ID: a8634c32-bf1e-461b-8df9-83b61223b448
           <div class="test-detail">
             <p class="name">02 [FIREFOX] - Verify Stock Information Display: RCOM</p>
             <p class="text-sm">
-              <span>19:52:18</span> / <span>00:00:21:744</span>
+              <span>18:38:39</span> / <span>00:00:21:071</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -520,9 +542,9 @@ Session ID: a8634c32-bf1e-461b-8df9-83b61223b448
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">02 [FIREFOX] - Verify Stock Information Display: RCOM</h5>
-<span class='badge badge-success'>06.19.2025 19:52:18</span>
-<span class='badge badge-danger'>06.19.2025 19:52:39</span>
-<span class='badge badge-default'>00:00:21:744</span>
+<span class='badge badge-success'>06.21.2025 18:38:39</span>
+<span class='badge badge-danger'>06.21.2025 18:39:00</span>
+<span class='badge badge-default'>00:00:21:071</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -534,58 +556,51 @@ Session ID: a8634c32-bf1e-461b-8df9-83b61223b448
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:52:39</td>
+        <td>18:39:00</td>
         <td>
-          expected stockName : RCOM,actual stockName : RCOM
+          expected stockName: RCOM, actual stockName: RCOM
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:52:39</td>
+        <td>18:39:00</td>
         <td>
-          expected stockFullName : RELIANCE COMMUNICATIONS LIMITED (INE330H01018),actual stockFullName : RELIANCE COMMUNICATIONS LIMITED (INE330H01018)
+          expected stockFullName: RELIANCE COMMUNICATIONS LIMITED (INE330H01018), actual stockFullName: RELIANCE COMMUNICATIONS LIMITED (INE330H01018)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>18:39:00</td>
+        <td>
+          Test search for stock information: RCOM failed - For input string: "-"
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:52:39</td>
-        <td>
-          expected stockCurrentPrice : -,actual stockCurrentPrice : -
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:52:39</td>
-        <td>
-          Test search for stock information: RCOM
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:52:39</td>
+        <td>18:39:00</td>
         <td>
           Test 52 Week High and Low prices for stock: RCOM
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>19:52:39</td>
+        <td>18:39:00</td>
         <td>
           52 Week High price: 2.58, 52 Week Low price: 1.34
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>19:52:39</td>
+        <td>18:39:00</td>
         <td>
           Test Calculate profit or loss for stock: RCOM failed - For input string: "-"
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>19:52:39</td>
+        <td>18:39:00</td>
         <td>
-          Test failed: java.lang.NumberFormatException: For input string: "-"
+          Test failed: java.lang.AssertionError: One or more verifications failed. See above for details.
         </td>
       </tr>
   </tbody>
@@ -593,25 +608,25 @@ Session ID: a8634c32-bf1e-461b-8df9-83b61223b448
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="7"
+        <li class="test-item"  status="fail" test-id="7"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">03 [CHROME] - Verify Stock Information Display: RELIANCE</p>
             <p class="text-sm">
-              <span>19:52:27</span> / <span>00:00:22:864</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>18:39:01</span> / <span>00:00:22:792</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">03 [CHROME] - Verify Stock Information Display: RELIANCE</h5>
-<span class='badge badge-success'>06.19.2025 19:52:27</span>
-<span class='badge badge-danger'>06.19.2025 19:52:50</span>
-<span class='badge badge-default'>00:00:22:864</span>
+<h5 class="test-status text-fail">03 [CHROME] - Verify Stock Information Display: RELIANCE</h5>
+<span class='badge badge-success'>06.21.2025 18:39:01</span>
+<span class='badge badge-danger'>06.21.2025 18:39:24</span>
+<span class='badge badge-default'>00:00:22:792</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -623,72 +638,65 @@ Session ID: a8634c32-bf1e-461b-8df9-83b61223b448
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:52:49</td>
+        <td>18:39:24</td>
         <td>
-          expected stockName : RELIANCE,actual stockName : RELIANCE
+          expected stockName: RELIANCE, actual stockName: RELIANCE
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:52:49</td>
+        <td>18:39:24</td>
         <td>
-          expected stockFullName : RELIANCE INDUSTRIES LIMITED (INE002A01018),actual stockFullName : RELIANCE INDUSTRIES LIMITED (INE002A01018)
+          expected stockFullName: RELIANCE INDUSTRIES LIMITED (INE002A01018), actual stockFullName: RELIANCE INDUSTRIES LIMITED (INE002A01018)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>18:39:24</td>
+        <td>
+          Test search for stock information: RELIANCE failed - For input string: "1,453.30"
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:52:49</td>
-        <td>
-          expected stockCurrentPrice : 1,428.00,actual stockCurrentPrice : 1,428.00
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:52:49</td>
-        <td>
-          Test search for stock information: RELIANCE
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:52:50</td>
+        <td>18:39:24</td>
         <td>
           Test 52 Week High and Low prices for stock: RELIANCE
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>19:52:50</td>
+        <td>18:39:24</td>
         <td>
           52 Week High price: 1,608.80, 52 Week Low price: 1,114.85
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>19:52:50</td>
+        <td>18:39:24</td>
         <td>
-          Buy Price: 1428.0, Current Price: 1428.0, Profit/Loss: 0.0
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>19:52:50</td>
-        <td>
-          No profit or loss for stock: RELIANCE
+          Buy Price: 1428.0, Current Price: 1464.1, Profit/Loss: 36.09999999999991
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:52:50</td>
+        <td>18:39:24</td>
+        <td>
+          Profit of 36.09999999999991 for stock: RELIANCE
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>18:39:24</td>
         <td>
           Test Calculate profit or loss for stock: RELIANCE
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:52:50</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>18:39:24</td>
         <td>
-          Test passed
+          Test failed: java.lang.AssertionError: One or more verifications failed. See above for details.
         </td>
       </tr>
   </tbody>
@@ -696,25 +704,25 @@ Session ID: a8634c32-bf1e-461b-8df9-83b61223b448
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="8"
+        <li class="test-item"  status="fail" test-id="8"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">03 [EDGE] - Verify Stock Information Display: RELIANCE</p>
             <p class="text-sm">
-              <span>19:52:30</span> / <span>00:00:22:674</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>18:39:08</span> / <span>00:00:23:733</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">03 [EDGE] - Verify Stock Information Display: RELIANCE</h5>
-<span class='badge badge-success'>06.19.2025 19:52:30</span>
-<span class='badge badge-danger'>06.19.2025 19:52:52</span>
-<span class='badge badge-default'>00:00:22:674</span>
+<h5 class="test-status text-fail">03 [EDGE] - Verify Stock Information Display: RELIANCE</h5>
+<span class='badge badge-success'>06.21.2025 18:39:08</span>
+<span class='badge badge-danger'>06.21.2025 18:39:31</span>
+<span class='badge badge-default'>00:00:23:733</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -726,72 +734,65 @@ Session ID: a8634c32-bf1e-461b-8df9-83b61223b448
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:52:52</td>
+        <td>18:39:31</td>
         <td>
-          expected stockName : RELIANCE,actual stockName : RELIANCE
+          expected stockName: RELIANCE, actual stockName: RELIANCE
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:52:52</td>
+        <td>18:39:31</td>
         <td>
-          expected stockFullName : RELIANCE INDUSTRIES LIMITED (INE002A01018),actual stockFullName : RELIANCE INDUSTRIES LIMITED (INE002A01018)
+          expected stockFullName: RELIANCE INDUSTRIES LIMITED (INE002A01018), actual stockFullName: RELIANCE INDUSTRIES LIMITED (INE002A01018)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>18:39:31</td>
+        <td>
+          Test search for stock information: RELIANCE failed - For input string: "1,453.30"
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:52:52</td>
-        <td>
-          expected stockCurrentPrice : 1,428.00,actual stockCurrentPrice : 1,428.00
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:52:52</td>
-        <td>
-          Test search for stock information: RELIANCE
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:52:52</td>
+        <td>18:39:31</td>
         <td>
           Test 52 Week High and Low prices for stock: RELIANCE
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>19:52:52</td>
+        <td>18:39:31</td>
         <td>
           52 Week High price: 1,608.80, 52 Week Low price: 1,114.85
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>19:52:52</td>
+        <td>18:39:31</td>
         <td>
-          Buy Price: 1428.0, Current Price: 1428.0, Profit/Loss: 0.0
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>19:52:52</td>
-        <td>
-          No profit or loss for stock: RELIANCE
+          Buy Price: 1428.0, Current Price: 1464.1, Profit/Loss: 36.09999999999991
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:52:52</td>
+        <td>18:39:31</td>
+        <td>
+          Profit of 36.09999999999991 for stock: RELIANCE
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>18:39:31</td>
         <td>
           Test Calculate profit or loss for stock: RELIANCE
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:52:52</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>18:39:31</td>
         <td>
-          Test passed
+          Test failed: java.lang.AssertionError: One or more verifications failed. See above for details.
         </td>
       </tr>
   </tbody>
@@ -806,7 +807,7 @@ Session ID: a8634c32-bf1e-461b-8df9-83b61223b448
           <div class="test-detail">
             <p class="name">03 [FIREFOX] - Verify Stock Information Display: RELIANCE</p>
             <p class="text-sm">
-              <span>19:52:46</span> / <span>00:00:36:976</span>
+              <span>18:39:08</span> / <span>00:00:21:109</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -815,9 +816,9 @@ Session ID: a8634c32-bf1e-461b-8df9-83b61223b448
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">03 [FIREFOX] - Verify Stock Information Display: RELIANCE</h5>
-<span class='badge badge-success'>06.19.2025 19:52:46</span>
-<span class='badge badge-danger'>06.19.2025 19:53:23</span>
-<span class='badge badge-default'>00:00:36:976</span>
+<span class='badge badge-success'>06.21.2025 18:39:08</span>
+<span class='badge badge-danger'>06.21.2025 18:39:30</span>
+<span class='badge badge-default'>00:00:21:109</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -828,15 +829,66 @@ Session ID: a8634c32-bf1e-461b-8df9-83b61223b448
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>19:53:23</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>18:39:29</td>
         <td>
-          Test failed: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a[data-nse-translate-symbol='RELIANCE'] (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:46189, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 27284, moz:profile: C:\Users\jpasi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:46189/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 42cadc37-2c97-4b4d-a806-18fbdef7227f
+          expected stockName: RELIANCE, actual stockName: RELIANCE
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>18:39:29</td>
+        <td>
+          expected stockFullName: RELIANCE INDUSTRIES LIMITED (INE002A01018), actual stockFullName: RELIANCE INDUSTRIES LIMITED (INE002A01018)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>18:39:29</td>
+        <td>
+          Test search for stock information: RELIANCE failed - For input string: "1,453.30"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>18:39:30</td>
+        <td>
+          Test 52 Week High and Low prices for stock: RELIANCE
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>18:39:30</td>
+        <td>
+          52 Week High price: 1,608.80, 52 Week Low price: 1,114.85
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>18:39:30</td>
+        <td>
+          Buy Price: 1428.0, Current Price: 1464.1, Profit/Loss: 36.09999999999991
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>18:39:30</td>
+        <td>
+          Profit of 36.09999999999991 for stock: RELIANCE
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>18:39:30</td>
+        <td>
+          Test Calculate profit or loss for stock: RELIANCE
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>18:39:30</td>
+        <td>
+          Test failed: java.lang.AssertionError: One or more verifications failed. See above for details.
         </td>
       </tr>
   </tbody>
@@ -844,25 +896,25 @@ Session ID: 42cadc37-2c97-4b4d-a806-18fbdef7227f
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="10"
+        <li class="test-item"  status="fail" test-id="10"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">04 [CHROME] - Verify Stock Information Display: HDFCBANK</p>
             <p class="text-sm">
-              <span>19:52:54</span> / <span>00:00:22:073</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>18:39:29</span> / <span>00:00:22:508</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">04 [CHROME] - Verify Stock Information Display: HDFCBANK</h5>
-<span class='badge badge-success'>06.19.2025 19:52:54</span>
-<span class='badge badge-danger'>06.19.2025 19:53:16</span>
-<span class='badge badge-default'>00:00:22:073</span>
+<h5 class="test-status text-fail">04 [CHROME] - Verify Stock Information Display: HDFCBANK</h5>
+<span class='badge badge-success'>06.21.2025 18:39:29</span>
+<span class='badge badge-danger'>06.21.2025 18:39:52</span>
+<span class='badge badge-default'>00:00:22:508</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -874,72 +926,65 @@ Session ID: 42cadc37-2c97-4b4d-a806-18fbdef7227f
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:16</td>
+        <td>18:39:52</td>
         <td>
-          expected stockName : HDFCBANK,actual stockName : HDFCBANK
+          expected stockName: HDFCBANK, actual stockName: HDFCBANK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:16</td>
+        <td>18:39:52</td>
         <td>
-          expected stockFullName : HDFC BANK LIMITED (INE040A01034),actual stockFullName : HDFC BANK LIMITED (INE040A01034)
+          expected stockFullName: HDFC BANK LIMITED (INE040A01034), actual stockFullName: HDFC BANK LIMITED (INE040A01034)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>18:39:52</td>
+        <td>
+          Test search for stock information: HDFCBANK failed - For input string: "1,954.20"
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:16</td>
-        <td>
-          expected stockCurrentPrice : 1,933.10,actual stockCurrentPrice : 1,933.10
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:16</td>
-        <td>
-          Test search for stock information: HDFCBANK
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:16</td>
+        <td>18:39:52</td>
         <td>
           Test 52 Week High and Low prices for stock: HDFCBANK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>19:53:16</td>
+        <td>18:39:52</td>
         <td>
           52 Week High price: 1,996.30, 52 Week Low price: 1,588.05
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>19:53:16</td>
+        <td>18:39:52</td>
         <td>
-          Buy Price: 1933.1, Current Price: 1933.1, Profit/Loss: 0.0
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>19:53:16</td>
-        <td>
-          No profit or loss for stock: HDFCBANK
+          Buy Price: 1933.1, Current Price: 1963.1, Profit/Loss: 30.0
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:16</td>
+        <td>18:39:52</td>
+        <td>
+          Profit of 30.0 for stock: HDFCBANK
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>18:39:52</td>
         <td>
           Test Calculate profit or loss for stock: HDFCBANK
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:16</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>18:39:52</td>
         <td>
-          Test passed
+          Test failed: java.lang.AssertionError: One or more verifications failed. See above for details.
         </td>
       </tr>
   </tbody>
@@ -947,25 +992,25 @@ Session ID: 42cadc37-2c97-4b4d-a806-18fbdef7227f
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="11"
+        <li class="test-item"  status="fail" test-id="11"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">04 [EDGE] - Verify Stock Information Display: HDFCBANK</p>
+            <p class="name">04 [FIREFOX] - Verify Stock Information Display: HDFCBANK</p>
             <p class="text-sm">
-              <span>19:52:59</span> / <span>00:00:22:828</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>18:39:38</span> / <span>00:00:22:103</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">04 [EDGE] - Verify Stock Information Display: HDFCBANK</h5>
-<span class='badge badge-success'>06.19.2025 19:52:59</span>
-<span class='badge badge-danger'>06.19.2025 19:53:22</span>
-<span class='badge badge-default'>00:00:22:828</span>
+<h5 class="test-status text-fail">04 [FIREFOX] - Verify Stock Information Display: HDFCBANK</h5>
+<span class='badge badge-success'>06.21.2025 18:39:38</span>
+<span class='badge badge-danger'>06.21.2025 18:40:00</span>
+<span class='badge badge-default'>00:00:22:103</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -977,72 +1022,65 @@ Session ID: 42cadc37-2c97-4b4d-a806-18fbdef7227f
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:22</td>
+        <td>18:40:00</td>
         <td>
-          expected stockName : HDFCBANK,actual stockName : HDFCBANK
+          expected stockName: HDFCBANK, actual stockName: HDFCBANK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:22</td>
+        <td>18:40:00</td>
         <td>
-          expected stockFullName : HDFC BANK LIMITED (INE040A01034),actual stockFullName : HDFC BANK LIMITED (INE040A01034)
+          expected stockFullName: HDFC BANK LIMITED (INE040A01034), actual stockFullName: HDFC BANK LIMITED (INE040A01034)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>18:40:00</td>
+        <td>
+          Test search for stock information: HDFCBANK failed - For input string: "1,954.20"
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:22</td>
-        <td>
-          expected stockCurrentPrice : 1,933.10,actual stockCurrentPrice : 1,933.10
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:22</td>
-        <td>
-          Test search for stock information: HDFCBANK
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:22</td>
+        <td>18:40:00</td>
         <td>
           Test 52 Week High and Low prices for stock: HDFCBANK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>19:53:22</td>
+        <td>18:40:00</td>
         <td>
           52 Week High price: 1,996.30, 52 Week Low price: 1,588.05
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>19:53:22</td>
+        <td>18:40:00</td>
         <td>
-          Buy Price: 1933.1, Current Price: 1933.1, Profit/Loss: 0.0
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>19:53:22</td>
-        <td>
-          No profit or loss for stock: HDFCBANK
+          Buy Price: 1933.1, Current Price: 1963.1, Profit/Loss: 30.0
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:22</td>
+        <td>18:40:00</td>
+        <td>
+          Profit of 30.0 for stock: HDFCBANK
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>18:40:00</td>
         <td>
           Test Calculate profit or loss for stock: HDFCBANK
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:22</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>18:40:00</td>
         <td>
-          Test passed
+          Test failed: java.lang.AssertionError: One or more verifications failed. See above for details.
         </td>
       </tr>
   </tbody>
@@ -1050,25 +1088,25 @@ Session ID: 42cadc37-2c97-4b4d-a806-18fbdef7227f
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="12"
+        <li class="test-item"  status="fail" test-id="12"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">05 [CHROME] - Verify Stock Information Display: INFY</p>
+            <p class="name">04 [EDGE] - Verify Stock Information Display: HDFCBANK</p>
             <p class="text-sm">
-              <span>19:53:20</span> / <span>00:00:22:224</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>18:39:39</span> / <span>00:00:22:331</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">05 [CHROME] - Verify Stock Information Display: INFY</h5>
-<span class='badge badge-success'>06.19.2025 19:53:20</span>
-<span class='badge badge-danger'>06.19.2025 19:53:42</span>
-<span class='badge badge-default'>00:00:22:224</span>
+<h5 class="test-status text-fail">04 [EDGE] - Verify Stock Information Display: HDFCBANK</h5>
+<span class='badge badge-success'>06.21.2025 18:39:39</span>
+<span class='badge badge-danger'>06.21.2025 18:40:01</span>
+<span class='badge badge-default'>00:00:22:331</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -1080,72 +1118,65 @@ Session ID: 42cadc37-2c97-4b4d-a806-18fbdef7227f
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:42</td>
+        <td>18:40:01</td>
         <td>
-          expected stockName : INFY,actual stockName : INFY
+          expected stockName: HDFCBANK, actual stockName: HDFCBANK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:42</td>
+        <td>18:40:01</td>
         <td>
-          expected stockFullName : INFOSYS LIMITED (INE009A01021),actual stockFullName : INFOSYS LIMITED (INE009A01021)
+          expected stockFullName: HDFC BANK LIMITED (INE040A01034), actual stockFullName: HDFC BANK LIMITED (INE040A01034)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>18:40:01</td>
+        <td>
+          Test search for stock information: HDFCBANK failed - For input string: "1,954.20"
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:42</td>
+        <td>18:40:01</td>
         <td>
-          expected stockCurrentPrice : 1,616.90,actual stockCurrentPrice : 1,616.90
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:42</td>
-        <td>
-          Test search for stock information: INFY
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:42</td>
-        <td>
-          Test 52 Week High and Low prices for stock: INFY
+          Test 52 Week High and Low prices for stock: HDFCBANK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>19:53:42</td>
+        <td>18:40:01</td>
         <td>
-          52 Week High price: 2,006.45, 52 Week Low price: 1,307.00
+          52 Week High price: 1,996.30, 52 Week Low price: 1,588.05
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>19:53:42</td>
+        <td>18:40:01</td>
         <td>
-          Buy Price: 1616.9, Current Price: 1616.9, Profit/Loss: 0.0
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>19:53:42</td>
-        <td>
-          No profit or loss for stock: INFY
+          Buy Price: 1933.1, Current Price: 1963.1, Profit/Loss: 30.0
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:42</td>
+        <td>18:40:01</td>
         <td>
-          Test Calculate profit or loss for stock: INFY
+          Profit of 30.0 for stock: HDFCBANK
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:42</td>
+        <td>18:40:01</td>
         <td>
-          Test passed
+          Test Calculate profit or loss for stock: HDFCBANK
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>18:40:01</td>
+        <td>
+          Test failed: java.lang.AssertionError: One or more verifications failed. See above for details.
         </td>
       </tr>
   </tbody>
@@ -1153,25 +1184,25 @@ Session ID: 42cadc37-2c97-4b4d-a806-18fbdef7227f
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="13"
+        <li class="test-item"  status="fail" test-id="13"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">05 [EDGE] - Verify Stock Information Display: INFY</p>
+            <p class="name">05 [CHROME] - Verify Stock Information Display: INFY</p>
             <p class="text-sm">
-              <span>19:53:29</span> / <span>00:00:23:023</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>18:39:56</span> / <span>00:00:23:619</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">05 [EDGE] - Verify Stock Information Display: INFY</h5>
-<span class='badge badge-success'>06.19.2025 19:53:29</span>
-<span class='badge badge-danger'>06.19.2025 19:53:52</span>
-<span class='badge badge-default'>00:00:23:023</span>
+<h5 class="test-status text-fail">05 [CHROME] - Verify Stock Information Display: INFY</h5>
+<span class='badge badge-success'>06.21.2025 18:39:56</span>
+<span class='badge badge-danger'>06.21.2025 18:40:20</span>
+<span class='badge badge-default'>00:00:23:619</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -1183,72 +1214,65 @@ Session ID: 42cadc37-2c97-4b4d-a806-18fbdef7227f
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:52</td>
+        <td>18:40:20</td>
         <td>
-          expected stockName : INFY,actual stockName : INFY
+          expected stockName: INFY, actual stockName: INFY
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:52</td>
+        <td>18:40:20</td>
         <td>
-          expected stockFullName : INFOSYS LIMITED (INE009A01021),actual stockFullName : INFOSYS LIMITED (INE009A01021)
+          expected stockFullName: INFOSYS LIMITED (INE009A01021), actual stockFullName: INFOSYS LIMITED (INE009A01021)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>18:40:20</td>
+        <td>
+          Test search for stock information: INFY failed - For input string: "1,616.40"
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:52</td>
-        <td>
-          expected stockCurrentPrice : 1,616.90,actual stockCurrentPrice : 1,616.90
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:52</td>
-        <td>
-          Test search for stock information: INFY
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:52</td>
+        <td>18:40:20</td>
         <td>
           Test 52 Week High and Low prices for stock: INFY
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>19:53:52</td>
+        <td>18:40:20</td>
         <td>
           52 Week High price: 2,006.45, 52 Week Low price: 1,307.00
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>19:53:52</td>
+        <td>18:40:20</td>
         <td>
-          Buy Price: 1616.9, Current Price: 1616.9, Profit/Loss: 0.0
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>19:53:52</td>
-        <td>
-          No profit or loss for stock: INFY
+          Buy Price: 1616.9, Current Price: 1618.0, Profit/Loss: 1.099999999999909
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:52</td>
+        <td>18:40:20</td>
+        <td>
+          Profit of 1.099999999999909 for stock: INFY
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>18:40:20</td>
         <td>
           Test Calculate profit or loss for stock: INFY
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:52</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>18:40:20</td>
         <td>
-          Test passed
+          Test failed: java.lang.AssertionError: One or more verifications failed. See above for details.
         </td>
       </tr>
   </tbody>
@@ -1256,25 +1280,25 @@ Session ID: 42cadc37-2c97-4b4d-a806-18fbdef7227f
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="14"
+        <li class="test-item"  status="fail" test-id="14"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">04 [FIREFOX] - Verify Stock Information Display: HDFCBANK</p>
+            <p class="name">05 [FIREFOX] - Verify Stock Information Display: INFY</p>
             <p class="text-sm">
-              <span>19:53:33</span> / <span>00:00:21:219</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>18:40:07</span> / <span>00:00:20:798</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">04 [FIREFOX] - Verify Stock Information Display: HDFCBANK</h5>
-<span class='badge badge-success'>06.19.2025 19:53:33</span>
-<span class='badge badge-danger'>06.19.2025 19:53:54</span>
-<span class='badge badge-default'>00:00:21:219</span>
+<h5 class="test-status text-fail">05 [FIREFOX] - Verify Stock Information Display: INFY</h5>
+<span class='badge badge-success'>06.21.2025 18:40:07</span>
+<span class='badge badge-danger'>06.21.2025 18:40:27</span>
+<span class='badge badge-default'>00:00:20:798</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -1286,72 +1310,65 @@ Session ID: 42cadc37-2c97-4b4d-a806-18fbdef7227f
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:54</td>
+        <td>18:40:27</td>
         <td>
-          expected stockName : HDFCBANK,actual stockName : HDFCBANK
+          expected stockName: INFY, actual stockName: INFY
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:54</td>
+        <td>18:40:27</td>
         <td>
-          expected stockFullName : HDFC BANK LIMITED (INE040A01034),actual stockFullName : HDFC BANK LIMITED (INE040A01034)
+          expected stockFullName: INFOSYS LIMITED (INE009A01021), actual stockFullName: INFOSYS LIMITED (INE009A01021)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>18:40:27</td>
+        <td>
+          Test search for stock information: INFY failed - For input string: "1,616.40"
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:54</td>
+        <td>18:40:27</td>
         <td>
-          expected stockCurrentPrice : 1,933.10,actual stockCurrentPrice : 1,933.10
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:54</td>
-        <td>
-          Test search for stock information: HDFCBANK
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:54</td>
-        <td>
-          Test 52 Week High and Low prices for stock: HDFCBANK
+          Test 52 Week High and Low prices for stock: INFY
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>19:53:54</td>
+        <td>18:40:27</td>
         <td>
-          52 Week High price: 1,996.30, 52 Week Low price: 1,588.05
+          52 Week High price: 2,006.45, 52 Week Low price: 1,307.00
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>19:53:54</td>
+        <td>18:40:27</td>
         <td>
-          Buy Price: 1933.1, Current Price: 1933.1, Profit/Loss: 0.0
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>19:53:54</td>
-        <td>
-          No profit or loss for stock: HDFCBANK
+          Buy Price: 1616.9, Current Price: 1618.0, Profit/Loss: 1.099999999999909
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:54</td>
+        <td>18:40:27</td>
         <td>
-          Test Calculate profit or loss for stock: HDFCBANK
+          Profit of 1.099999999999909 for stock: INFY
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:53:54</td>
+        <td>18:40:27</td>
         <td>
-          Test passed
+          Test Calculate profit or loss for stock: INFY
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>18:40:27</td>
+        <td>
+          Test failed: java.lang.AssertionError: One or more verifications failed. See above for details.
         </td>
       </tr>
   </tbody>
@@ -1364,9 +1381,9 @@ Session ID: 42cadc37-2c97-4b4d-a806-18fbdef7227f
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">06 [CHROME] - Verify Stock Information Display: INVALID</p>
+            <p class="name">05 [EDGE] - Verify Stock Information Display: INFY</p>
             <p class="text-sm">
-              <span>19:53:46</span> / <span>00:00:39:897</span>
+              <span>18:40:09</span> / <span>00:00:21:991</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -1374,10 +1391,10 @@ Session ID: 42cadc37-2c97-4b4d-a806-18fbdef7227f
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">06 [CHROME] - Verify Stock Information Display: INVALID</h5>
-<span class='badge badge-success'>06.19.2025 19:53:46</span>
-<span class='badge badge-danger'>06.19.2025 19:54:26</span>
-<span class='badge badge-default'>00:00:39:897</span>
+<h5 class="test-status text-fail">05 [EDGE] - Verify Stock Information Display: INFY</h5>
+<span class='badge badge-success'>06.21.2025 18:40:09</span>
+<span class='badge badge-danger'>06.21.2025 18:40:31</span>
+<span class='badge badge-default'>00:00:21:991</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -1388,15 +1405,66 @@ Session ID: 42cadc37-2c97-4b4d-a806-18fbdef7227f
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>19:54:26</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>18:40:31</td>
         <td>
-          Test failed: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a[data-nse-translate-symbol='INVALID'] (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.119, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\jpasi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:18523}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:18523/devtoo..., se:cdpVersion: 137.0.7151.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f0c8b404b58a75c05e6a65df2127af18
+          expected stockName: INFY, actual stockName: INFY
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>18:40:31</td>
+        <td>
+          expected stockFullName: INFOSYS LIMITED (INE009A01021), actual stockFullName: INFOSYS LIMITED (INE009A01021)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>18:40:31</td>
+        <td>
+          Test search for stock information: INFY failed - For input string: "1,616.40"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>18:40:31</td>
+        <td>
+          Test 52 Week High and Low prices for stock: INFY
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>18:40:31</td>
+        <td>
+          52 Week High price: 2,006.45, 52 Week Low price: 1,307.00
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>18:40:31</td>
+        <td>
+          Buy Price: 1616.9, Current Price: 1618.0, Profit/Loss: 1.099999999999909
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>18:40:31</td>
+        <td>
+          Profit of 1.099999999999909 for stock: INFY
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>18:40:31</td>
+        <td>
+          Test Calculate profit or loss for stock: INFY
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>18:40:31</td>
+        <td>
+          Test failed: java.lang.AssertionError: One or more verifications failed. See above for details.
         </td>
       </tr>
   </tbody>
@@ -1409,9 +1477,9 @@ Session ID: f0c8b404b58a75c05e6a65df2127af18
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">06 [EDGE] - Verify Stock Information Display: INVALID</p>
+            <p class="name">06 [CHROME] - Verify Stock Information Display: INVALID</p>
             <p class="text-sm">
-              <span>19:53:59</span> / <span>00:00:38:837</span>
+              <span>18:40:24</span> / <span>00:00:38:618</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -1419,10 +1487,10 @@ Session ID: f0c8b404b58a75c05e6a65df2127af18
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">06 [EDGE] - Verify Stock Information Display: INVALID</h5>
-<span class='badge badge-success'>06.19.2025 19:53:59</span>
-<span class='badge badge-danger'>06.19.2025 19:54:38</span>
-<span class='badge badge-default'>00:00:38:837</span>
+<h5 class="test-status text-fail">06 [CHROME] - Verify Stock Information Display: INVALID</h5>
+<span class='badge badge-success'>06.21.2025 18:40:24</span>
+<span class='badge badge-danger'>06.21.2025 18:41:02</span>
+<span class='badge badge-default'>00:00:38:618</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -1434,14 +1502,9 @@ Session ID: f0c8b404b58a75c05e6a65df2127af18
   <tbody>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>19:54:38</td>
+        <td>18:41:02</td>
         <td>
-          Test failed: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a[data-nse-translate-symbol='INVALID'] (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:18661}, msedge: {msedgedriverVersion: 137.0.3296.83 (24e00e9cccf2..., userDataDir: C:\Users\jpasi\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:18661/devtoo..., se:cdpVersion: 137.0.3296.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 182afead7123feecf1f06fecf3246bdd
+          Test failed: java.lang.AssertionError: Stock details page did not load for: INVALID
         </td>
       </tr>
   </tbody>
@@ -1449,25 +1512,25 @@ Session ID: 182afead7123feecf1f06fecf3246bdd
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="17"
+        <li class="test-item"  status="fail" test-id="17"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">05 [FIREFOX] - Verify Stock Information Display: INFY</p>
+            <p class="name">06 [FIREFOX] - Verify Stock Information Display: INVALID</p>
             <p class="text-sm">
-              <span>19:54:02</span> / <span>00:00:25:812</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>18:40:34</span> / <span>00:00:37:543</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">05 [FIREFOX] - Verify Stock Information Display: INFY</h5>
-<span class='badge badge-success'>06.19.2025 19:54:02</span>
-<span class='badge badge-danger'>06.19.2025 19:54:28</span>
-<span class='badge badge-default'>00:00:25:812</span>
+<h5 class="test-status text-fail">06 [FIREFOX] - Verify Stock Information Display: INVALID</h5>
+<span class='badge badge-success'>06.21.2025 18:40:34</span>
+<span class='badge badge-danger'>06.21.2025 18:41:12</span>
+<span class='badge badge-default'>00:00:37:543</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -1478,73 +1541,10 @@ Session ID: 182afead7123feecf1f06fecf3246bdd
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:54:28</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>18:41:12</td>
         <td>
-          expected stockName : INFY,actual stockName : INFY
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:54:28</td>
-        <td>
-          expected stockFullName : INFOSYS LIMITED (INE009A01021),actual stockFullName : INFOSYS LIMITED (INE009A01021)
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:54:28</td>
-        <td>
-          expected stockCurrentPrice : 1,616.90,actual stockCurrentPrice : 1,616.90
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:54:28</td>
-        <td>
-          Test search for stock information: INFY
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:54:28</td>
-        <td>
-          Test 52 Week High and Low prices for stock: INFY
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>19:54:28</td>
-        <td>
-          52 Week High price: 2,006.45, 52 Week Low price: 1,307.00
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>19:54:28</td>
-        <td>
-          Buy Price: 1616.9, Current Price: 1616.9, Profit/Loss: 0.0
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>19:54:28</td>
-        <td>
-          No profit or loss for stock: INFY
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:54:28</td>
-        <td>
-          Test Calculate profit or loss for stock: INFY
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>19:54:28</td>
-        <td>
-          Test passed
+          Test failed: java.lang.AssertionError: Stock details page did not load for: INVALID
         </td>
       </tr>
   </tbody>
@@ -1557,9 +1557,9 @@ Session ID: 182afead7123feecf1f06fecf3246bdd
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">06 [FIREFOX] - Verify Stock Information Display: INVALID</p>
+            <p class="name">06 [EDGE] - Verify Stock Information Display: INVALID</p>
             <p class="text-sm">
-              <span>19:54:33</span> / <span>00:00:36:823</span>
+              <span>18:40:39</span> / <span>00:00:38:116</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -1567,10 +1567,10 @@ Session ID: 182afead7123feecf1f06fecf3246bdd
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">06 [FIREFOX] - Verify Stock Information Display: INVALID</h5>
-<span class='badge badge-success'>06.19.2025 19:54:33</span>
-<span class='badge badge-danger'>06.19.2025 19:55:10</span>
-<span class='badge badge-default'>00:00:36:823</span>
+<h5 class="test-status text-fail">06 [EDGE] - Verify Stock Information Display: INVALID</h5>
+<span class='badge badge-success'>06.21.2025 18:40:39</span>
+<span class='badge badge-danger'>06.21.2025 18:41:17</span>
+<span class='badge badge-default'>00:00:38:116</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -1582,14 +1582,9 @@ Session ID: 182afead7123feecf1f06fecf3246bdd
   <tbody>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>19:55:10</td>
+        <td>18:41:17</td>
         <td>
-          Test failed: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a[data-nse-translate-symbol='INVALID'] (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:33942, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20012, moz:profile: C:\Users\jpasi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:33942/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: bdcda724-2df1-4aef-ada5-4f67b04e1d8a
+          Test failed: java.lang.AssertionError: Stock details page did not load for: INVALID
         </td>
       </tr>
   </tbody>
@@ -1611,25 +1606,25 @@ Session ID: bdcda724-2df1-4aef-ada5-4f67b04e1d8a
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jun 19, 2025 07:51:23 pm</h3>
+<h3>Jun 21, 2025 06:37:57 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jun 19, 2025 07:55:11 pm</h3>
+<h3>Jun 21, 2025 06:41:19 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>10</h3>
+<h3>0</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>8</h3>
+<h3>18</h3>
 </div></div>
 </div>
 </div>
@@ -1645,12 +1640,12 @@ Session ID: bdcda724-2df1-4aef-ada5-4f67b04e1d8a
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='55%'>
-<b>10</b> tests passed
+<div><small data-tooltip='0%'>
+<b>0</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='44%'><b>8</b> tests failed,
+<small data-tooltip='100%'><b>18</b> tests failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -1668,10 +1663,10 @@ Session ID: bdcda724-2df1-4aef-ada5-4f67b04e1d8a
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='65%'><b>85</b> events passed</small></div>
+<div><small data-tooltip='52%'><b>69</b> events passed</small></div>
 <div>
-<small data-tooltip='8%'><b>11</b> events failed,
-<b data-tooltip='%'>33</b> others
+<small data-tooltip='27%'><b>36</b> events failed,
+<b data-tooltip='%'>27</b> others
 </small>
 </div>
 </div>
@@ -1687,7 +1682,7 @@ Session ID: bdcda724-2df1-4aef-ada5-4f67b04e1d8a
 </div></div>
 <script>
 var timeline = {
-"01 [CHROME] - Verify Stock Information Display: TATAMOTORS":23.725,"01 [EDGE] - Verify Stock Information Display: TATAMOTORS":21.954,"01 [FIREFOX] - Verify Stock Information Display: TATAMOTORS":37.499,"02 [CHROME] - Verify Stock Information Display: RCOM":25.235,"02 [EDGE] - Verify Stock Information Display: RCOM":22.338,"02 [FIREFOX] - Verify Stock Information Display: RCOM":21.744,"03 [CHROME] - Verify Stock Information Display: RELIANCE":22.864,"03 [EDGE] - Verify Stock Information Display: RELIANCE":22.674,"03 [FIREFOX] - Verify Stock Information Display: RELIANCE":36.976,"04 [CHROME] - Verify Stock Information Display: HDFCBANK":22.073,"04 [EDGE] - Verify Stock Information Display: HDFCBANK":22.828,"05 [CHROME] - Verify Stock Information Display: INFY":22.224,"05 [EDGE] - Verify Stock Information Display: INFY":23.023,"04 [FIREFOX] - Verify Stock Information Display: HDFCBANK":21.219,"06 [CHROME] - Verify Stock Information Display: INVALID":39.897,"06 [EDGE] - Verify Stock Information Display: INVALID":38.837,"05 [FIREFOX] - Verify Stock Information Display: INFY":25.812,"06 [FIREFOX] - Verify Stock Information Display: INVALID":36.823
+"01 [CHROME] - Verify Stock Information Display: TATAMOTORS":24.527,"01 [EDGE] - Verify Stock Information Display: TATAMOTORS":23.431,"01 [FIREFOX] - Verify Stock Information Display: TATAMOTORS":21.225,"02 [CHROME] - Verify Stock Information Display: RCOM":23.805,"02 [EDGE] - Verify Stock Information Display: RCOM":23.191,"02 [FIREFOX] - Verify Stock Information Display: RCOM":21.071,"03 [CHROME] - Verify Stock Information Display: RELIANCE":22.792,"03 [EDGE] - Verify Stock Information Display: RELIANCE":23.733,"03 [FIREFOX] - Verify Stock Information Display: RELIANCE":21.109,"04 [CHROME] - Verify Stock Information Display: HDFCBANK":22.508,"04 [FIREFOX] - Verify Stock Information Display: HDFCBANK":22.103,"04 [EDGE] - Verify Stock Information Display: HDFCBANK":22.331,"05 [CHROME] - Verify Stock Information Display: INFY":23.619,"05 [FIREFOX] - Verify Stock Information Display: INFY":20.798,"05 [EDGE] - Verify Stock Information Display: INFY":21.991,"06 [CHROME] - Verify Stock Information Display: INVALID":38.618,"06 [FIREFOX] - Verify Stock Information Display: INVALID":37.543,"06 [EDGE] - Verify Stock Information Display: INVALID":38.116
 };
 </script>
 <div class="row">
@@ -1696,8 +1691,8 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 10,
-failParent: 8,
+passParent: 0,
+failParent: 18,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
@@ -1713,11 +1708,11 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 85,
-failEvents: 11,
+passEvents: 69,
+failEvents: 36,
 warningEvents: 0,
 skipEvents: 0,
-infoEvents: 33
+infoEvents: 27
 };
 </script>        </div>
       </div>

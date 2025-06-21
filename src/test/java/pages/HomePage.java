@@ -1,8 +1,6 @@
 package pages;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -17,7 +15,6 @@ public class HomePage {
 
     public HomePage(WebDriver driver) {
         this.driver = driver;
-        // Use seconds as long for JDK 11/Selenium 3 compatibility
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(15));
     }
 
@@ -30,8 +27,15 @@ public class HomePage {
 
     public void clickNifty50() {
         WebElement link = wait.until(ExpectedConditions.elementToBeClickable(nifty50Link));
+        // Scroll into view to avoid overlays
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block: 'center'});", link);
+        try {
+            link.click();
+        } catch (ElementClickInterceptedException e) {
+            // Try clicking with JS as a fallback
+            ((JavascriptExecutor) driver).executeScript("arguments[0].click();", link);
+        }
         String originalWindow = driver.getWindowHandle();
-        link.click();
         for (String windowHandle : driver.getWindowHandles()) {
             if (!windowHandle.equals(originalWindow)) {
                 driver.switchTo().window(windowHandle);

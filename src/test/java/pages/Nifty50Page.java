@@ -19,11 +19,10 @@ public class Nifty50Page {
 
     public Nifty50Page(WebDriver driver) {
         this.driver = driver;
-        // Use seconds as int for compatibility
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(15));
     }
 
-    public void searchStock(String stockName) {
+    public boolean searchStock(String stockName) {
         WebElement input = wait.until(ExpectedConditions.elementToBeClickable(searchInput));
         input.clear();
         input.sendKeys(stockName);
@@ -40,14 +39,14 @@ public class Nifty50Page {
             input.sendKeys(Keys.ENTER);
         }
 
-        // Wait for the anchor with the correct symbol to be visible
+        // Wait for a unique element on the stock details page (e.g., #quoteName)
+        By stockDetailsLocator = By.cssSelector("#quoteName");
         try {
-            wait.until(ExpectedConditions.visibilityOfElementLocated(
-                    By.cssSelector("a[data-nse-translate-symbol='" + stockName.toUpperCase() + "']")));
+            wait.until(ExpectedConditions.visibilityOfElementLocated(stockDetailsLocator));
         } catch (TimeoutException e) {
-            takeDebugScreenshot("searchStockTimeout_" + stockName + ".png");
-            throw e;
+            throw new AssertionError("Stock details page did not load for: " + stockName);
         }
+        return true;
     }
 
     private void takeDebugScreenshot(String fileName) {
