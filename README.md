@@ -5,7 +5,7 @@ And Enhanced of checking the 52 weeks high and low prices
 And Enhanced for displaying Profit/Low obtained for a stock.
 
 1. Clone this repo and navigate to the project root.
-2. Ensure Java 17+ and Maven 3.8+ are installed.
+2. Ensure Java 11 and Maven 3.8+ are installed.
 3. Run `mvn clean install` to build dependencies.
 4. Place your test data in `src/test/resources/testdata/`.
 5. To run all tests in parallel on Chrome, Firefox, and Edge, use:  

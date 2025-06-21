@@ -1,0 +1,290 @@
+2025-06-21 15:10:59 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 15:10:59 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 15:10:59 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 15:11:00 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 15:11:00 INFO  BaseStockTest:59 - Launching edge browser and navigating to NSE India
+2025-06-21 15:11:00 INFO  BaseStockTest:59 - Launching firefox browser and navigating to NSE India
+2025-06-21 15:11:38 INFO  BaseStockTest:103 - Closing browser: chrome
+2025-06-21 15:11:39 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 15:11:56 INFO  BaseStockTest:103 - Closing browser: firefox
+2025-06-21 15:11:59 INFO  BaseStockTest:59 - Launching firefox browser and navigating to NSE India
+2025-06-21 15:12:04 INFO  BaseStockTest:103 - Closing browser: edge
+2025-06-21 15:12:08 INFO  BaseStockTest:59 - Launching edge browser and navigating to NSE India
+2025-06-21 15:12:13 INFO  BaseStockTest:103 - Closing browser: chrome
+2025-06-21 15:12:13 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 15:12:30 INFO  BaseStockTest:103 - Closing browser: firefox
+2025-06-21 15:12:34 INFO  BaseStockTest:59 - Launching firefox browser and navigating to NSE India
+2025-06-21 15:12:41 INFO  BaseStockTest:103 - Closing browser: edge
+2025-06-21 15:12:43 INFO  BaseStockTest:59 - Launching edge browser and navigating to NSE India
+2025-06-21 15:12:45 INFO  BaseStockTest:103 - Closing browser: chrome
+2025-06-21 15:12:47 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 15:13:08 INFO  BaseStockTest:103 - Closing browser: firefox
+2025-06-21 15:13:11 INFO  BaseStockTest:59 - Launching firefox browser and navigating to NSE India
+2025-06-21 15:13:14 INFO  BaseStockTest:103 - Closing browser: edge
+2025-06-21 15:13:17 INFO  BaseStockTest:59 - Launching edge browser and navigating to NSE India
+2025-06-21 15:13:17 INFO  BaseStockTest:103 - Closing browser: chrome
+2025-06-21 15:13:18 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 15:13:49 INFO  BaseStockTest:103 - Closing browser: edge
+2025-06-21 15:13:50 INFO  BaseStockTest:103 - Closing browser: firefox
+2025-06-21 15:13:50 INFO  BaseStockTest:103 - Closing browser: chrome
+2025-06-21 15:13:51 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 15:13:51 INFO  BaseStockTest:59 - Launching edge browser and navigating to NSE India
+2025-06-21 15:13:52 INFO  BaseStockTest:59 - Launching firefox browser and navigating to NSE India
+2025-06-21 15:14:23 INFO  BaseStockTest:103 - Closing browser: edge
+2025-06-21 15:14:25 INFO  BaseStockTest:59 - Launching edge browser and navigating to NSE India
+2025-06-21 15:14:27 INFO  BaseStockTest:103 - Closing browser: firefox
+2025-06-21 15:14:30 INFO  BaseStockTest:59 - Launching firefox browser and navigating to NSE India
+2025-06-21 15:14:38 INFO  BaseStockTest:103 - Closing browser: chrome
+2025-06-21 15:14:40 INFO  BaseStockTest:49 - Flushing Extent report
+2025-06-21 15:15:12 INFO  BaseStockTest:103 - Closing browser: edge
+2025-06-21 15:15:14 INFO  BaseStockTest:49 - Flushing Extent report
+2025-06-21 15:15:18 INFO  BaseStockTest:103 - Closing browser: firefox
+2025-06-21 15:15:20 INFO  BaseStockTest:49 - Flushing Extent report
+2025-06-21 15:23:54 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 15:23:54 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 15:24:28 INFO  BaseStockTest:103 - Closing browser: chrome
+2025-06-21 15:24:31 INFO  BaseStockTest:49 - Flushing Extent report
+2025-06-21 15:30:26 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 15:30:27 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 15:30:59 INFO  BaseStockTest:103 - Closing browser: chrome
+2025-06-21 15:31:00 INFO  BaseStockTest:49 - Flushing Extent report
+2025-06-21 15:32:59 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 15:33:00 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 15:33:30 INFO  BaseStockTest:103 - Closing browser: chrome
+2025-06-21 15:33:31 INFO  BaseStockTest:49 - Flushing Extent report
+2025-06-21 15:36:53 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 15:36:54 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 15:37:27 INFO  BaseStockTest:103 - Closing browser: chrome
+2025-06-21 15:37:27 INFO  BaseStockTest:49 - Flushing Extent report
+2025-06-21 15:42:42 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 15:42:43 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 15:43:17 INFO  BaseStockTest:103 - Closing browser: chrome
+2025-06-21 15:43:18 INFO  BaseStockTest:49 - Flushing Extent report
+2025-06-21 15:44:45 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 15:44:46 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 15:45:16 INFO  BaseStockTest:103 - Closing browser: chrome
+2025-06-21 15:45:17 INFO  BaseStockTest:49 - Flushing Extent report
+2025-06-21 15:49:02 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 15:49:02 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 15:49:34 INFO  BaseStockTest:103 - Closing browser: chrome
+2025-06-21 15:49:35 INFO  BaseStockTest:49 - Flushing Extent report
+2025-06-21 15:54:53 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 15:54:53 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 15:55:27 INFO  BaseStockTest:103 - Closing browser: chrome
+2025-06-21 15:55:27 INFO  BaseStockTest:49 - Flushing Extent report
+2025-06-21 16:03:12 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 16:03:12 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 16:03:45 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 16:03:45 INFO  BaseStockTest:49 - Flushing Extent report
+2025-06-21 16:06:20 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 16:06:21 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 16:06:53 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 16:06:55 INFO  BaseStockTest:49 - Flushing Extent report
+2025-06-21 16:08:51 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 16:08:51 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 16:09:13 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 16:09:13 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 16:09:33 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 16:09:33 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 16:09:53 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 16:09:54 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 16:10:13 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 16:10:14 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 16:10:34 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 16:10:34 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 16:10:54 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 16:10:54 INFO  BaseStockTest:49 - Flushing Extent report
+2025-06-21 16:26:35 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 16:26:36 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 16:27:02 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 16:27:02 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 16:27:26 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 16:27:27 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 16:27:51 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 16:27:51 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 16:28:15 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 16:28:15 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 16:28:39 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 16:28:39 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 16:29:20 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 16:29:20 INFO  BaseStockTest:49 - Flushing Extent report
+2025-06-21 16:35:01 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 16:35:01 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 16:35:28 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 16:35:28 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 16:35:54 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 16:35:54 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 16:36:20 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 16:36:20 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 16:36:44 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 16:36:45 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 16:37:08 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 16:37:08 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 16:37:49 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 16:37:49 INFO  BaseStockTest:49 - Flushing Extent report
+2025-06-21 16:42:21 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 16:42:22 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 16:43:05 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 16:43:05 INFO  BaseStockTest:49 - Flushing Extent report
+2025-06-21 16:47:53 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 16:47:53 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 16:48:36 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 16:48:36 INFO  BaseStockTest:49 - Flushing Extent report
+2025-06-21 16:55:48 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 16:55:48 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 16:56:17 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 16:56:17 INFO  BaseStockTest:49 - Flushing Extent report
+2025-06-21 16:59:56 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 16:59:56 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 17:00:25 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 17:00:25 INFO  BaseStockTest:49 - Flushing Extent report
+2025-06-21 17:02:46 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 17:02:46 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 17:03:14 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 17:03:15 INFO  BaseStockTest:49 - Flushing Extent report
+2025-06-21 17:08:12 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 17:08:12 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 17:08:36 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 17:08:36 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 17:08:58 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 17:08:58 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 17:09:20 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 17:09:20 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 17:09:45 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 17:09:45 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 17:10:07 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 17:10:08 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 17:10:34 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 17:10:35 INFO  BaseStockTest:49 - Flushing Extent report
+2025-06-21 17:36:41 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 17:36:42 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 17:37:08 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 17:37:09 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 17:37:33 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 17:37:34 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 17:37:58 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 17:37:59 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 17:38:23 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 17:38:24 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 17:38:49 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 17:38:49 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 17:39:33 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 17:39:33 INFO  BaseStockTest:49 - Flushing Extent report
+2025-06-21 17:51:54 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 17:51:54 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 17:52:23 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 17:52:23 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 17:52:49 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 17:52:49 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 17:53:15 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 17:53:15 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 17:53:41 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 17:53:42 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 17:54:07 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 17:54:07 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 17:54:49 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 17:54:49 INFO  BaseStockTest:49 - Flushing Extent report
+2025-06-21 17:57:57 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 17:57:57 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 17:58:23 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 17:58:24 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 17:58:49 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 17:58:50 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 17:59:14 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 17:59:14 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 17:59:39 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 17:59:39 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 18:00:04 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 18:00:04 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 18:00:45 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 18:00:45 INFO  BaseStockTest:49 - Flushing Extent report
+2025-06-21 18:14:07 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 18:14:07 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 18:16:25 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 18:16:25 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 18:16:36 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 18:16:36 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 18:16:54 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 18:16:54 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 18:17:20 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 18:17:20 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 18:17:48 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 18:17:48 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 18:18:15 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 18:18:15 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 18:18:42 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 18:18:42 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 18:19:37 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 18:19:37 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 18:20:04 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 18:20:04 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 18:20:30 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 18:20:30 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 18:20:55 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 18:20:55 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 18:21:20 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 18:21:20 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 18:21:45 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 18:21:45 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 18:22:27 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 18:22:28 INFO  BaseStockTest:49 - Flushing Extent report
+2025-06-21 18:27:26 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 18:27:27 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 18:27:53 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 18:27:54 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 18:28:19 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 18:28:19 INFO  BaseStockTest:49 - Flushing Extent report
+2025-06-21 18:32:25 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 18:32:26 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 18:32:52 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 18:32:52 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 18:33:18 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 18:33:19 INFO  BaseStockTest:49 - Flushing Extent report
+2025-06-21 18:34:10 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 18:34:11 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 18:34:36 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 18:34:37 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 18:35:02 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 18:35:02 INFO  BaseStockTest:49 - Flushing Extent report
+2025-06-21 18:37:57 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 18:37:57 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 18:37:57 INFO  BaseStockTest:41 - Setting up Extent report
+2025-06-21 18:37:57 INFO  BaseStockTest:59 - Launching firefox browser and navigating to NSE India
+2025-06-21 18:37:57 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 18:37:57 INFO  BaseStockTest:59 - Launching edge browser and navigating to NSE India
+2025-06-21 18:38:28 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 18:38:28 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 18:38:30 INFO  BaseStockTest:104 - Closing browser: edge
+2025-06-21 18:38:30 INFO  BaseStockTest:104 - Closing browser: firefox
+2025-06-21 18:38:32 INFO  BaseStockTest:59 - Launching edge browser and navigating to NSE India
+2025-06-21 18:38:32 INFO  BaseStockTest:59 - Launching firefox browser and navigating to NSE India
+2025-06-21 18:38:57 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 18:38:58 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 18:39:00 INFO  BaseStockTest:104 - Closing browser: edge
+2025-06-21 18:39:00 INFO  BaseStockTest:104 - Closing browser: firefox
+2025-06-21 18:39:02 INFO  BaseStockTest:59 - Launching edge browser and navigating to NSE India
+2025-06-21 18:39:03 INFO  BaseStockTest:59 - Launching firefox browser and navigating to NSE India
+2025-06-21 18:39:25 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 18:39:25 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 18:39:30 INFO  BaseStockTest:104 - Closing browser: firefox
+2025-06-21 18:39:31 INFO  BaseStockTest:59 - Launching firefox browser and navigating to NSE India
+2025-06-21 18:39:32 INFO  BaseStockTest:104 - Closing browser: edge
+2025-06-21 18:39:33 INFO  BaseStockTest:59 - Launching edge browser and navigating to NSE India
+2025-06-21 18:39:52 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 18:39:52 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 18:40:00 INFO  BaseStockTest:104 - Closing browser: firefox
+2025-06-21 18:40:01 INFO  BaseStockTest:59 - Launching firefox browser and navigating to NSE India
+2025-06-21 18:40:02 INFO  BaseStockTest:104 - Closing browser: edge
+2025-06-21 18:40:03 INFO  BaseStockTest:59 - Launching edge browser and navigating to NSE India
+2025-06-21 18:40:20 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 18:40:20 INFO  BaseStockTest:59 - Launching chrome browser and navigating to NSE India
+2025-06-21 18:40:28 INFO  BaseStockTest:104 - Closing browser: firefox
+2025-06-21 18:40:29 INFO  BaseStockTest:59 - Launching firefox browser and navigating to NSE India
+2025-06-21 18:40:32 INFO  BaseStockTest:104 - Closing browser: edge
+2025-06-21 18:40:33 INFO  BaseStockTest:59 - Launching edge browser and navigating to NSE India
+2025-06-21 18:41:03 INFO  BaseStockTest:104 - Closing browser: chrome
+2025-06-21 18:41:03 INFO  BaseStockTest:49 - Flushing Extent report
+2025-06-21 18:41:12 INFO  BaseStockTest:104 - Closing browser: firefox
+2025-06-21 18:41:13 INFO  BaseStockTest:49 - Flushing Extent report
+2025-06-21 18:41:17 INFO  BaseStockTest:104 - Closing browser: edge
+2025-06-21 18:41:19 INFO  BaseStockTest:49 - Flushing Extent report
